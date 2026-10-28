@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Logo partnerships slide</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;background:#fff}
+.slide{position:relative;width:1920px;height:1080px;background:#fff;color:#000;font-family:Inter,system-ui,sans-serif;border-top:2px solid #000;overflow:hidden}
+.rule{position:absolute;top:34px;height:2px;background:#000}
+.rl{left:27px;width:455px}.rr{left:498px;width:1395px}
+.head{position:absolute;left:498px;top:52px;font-size:20px;line-height:24px}.head b{font-weight:600;display:block}
+.text{position:absolute;left:27px;top:230px;width:440px;font-size:20px;line-height:25px}
+.text p{margin:0 0 20px}
+.grid{position:absolute;left:498px;top:230px;width:1398px;height:799px;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:18px}
+.panel{position:relative;border-radius:14px;background:#F5F5F5;display:flex;align-items:center;justify-content:center}
+.panel.h{gap:70.6px}.panel.v{flex-direction:column;gap:70.6px}
+.panel img{display:block}.panel img[alt=Masumi]{width:224px}
+.pl{display:block}
+.badge{position:absolute;left:34px;bottom:34px;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.ok{background:#00D43B}.no{background:#fff;border:2px solid #0C0C0C}
+.sym{position:absolute;left:27px;bottom:30px;width:50px;height:50px}
+</style></head><body><div class="slide">
+<div class="rule rl"></div><div class="rule rr"></div>
+<div class="head"><b>Logo</b>Partnerships</div>
+<div class="text"><p>When the Masumi logo sits next to a partner logo, size the partner logo optically. It should carry the same visual weight as ours.</p><p>Do not match height or width.</p><p>Keep 2x between the logos. See the spacing slide.</p></div>
+<div class="grid" id="grid"></div>
+<img class="sym" src="logos/masumi/masumi-symbol.svg" alt="Masumi symbol">
+</div>
+<script>
+const M='<img src="logos/masumi/masumi-logo-wordmark-black.svg" alt="Masumi">';
+const P=w=>`<img class="pl" src="logos/partners/nmkr-logo.png" style="width:${w}px" alt="NMKR">`;
+const ok='<div class="badge ok" aria-label="Correct"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#0C0C0C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 9.5l4 4 7-8"/></svg></div>';
+const no='<div class="badge no" aria-label="Incorrect"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#0C0C0C" stroke-width="2" stroke-linecap="round"><path d="M3.5 3.5l9 9M12.5 3.5l-9 9"/></svg></div>';
+document.getElementById('grid').innerHTML=
+ `<div class="panel h">${M}${P(173)}${ok}</div>`+
+ `<div class="panel h">${M}${P(113)}${no}</div>`+
+ `<div class="panel v">${M}${P(173)}${ok}</div>`+
+ `<div class="panel v">${M}${P(224)}${no}</div>`;
+</script></body></html>

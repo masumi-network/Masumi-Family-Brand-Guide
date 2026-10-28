@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Agentic family logos slide</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;background:#fff}
+.slide{position:relative;width:1920px;height:1080px;background:#fff;color:#000;font-family:Inter,system-ui,sans-serif;border-top:2px solid #000;overflow:hidden}
+.rule{position:absolute;top:34px;height:2px;background:#000}
+.rl{left:27px;width:455px}.rr{left:498px;width:1395px}
+.head{position:absolute;left:498px;top:52px;font-size:20px;line-height:24px}.head b{font-weight:600;display:block}
+.text{position:absolute;left:27px;top:240px;width:440px;font-size:20px;line-height:25px}
+.col{position:absolute;left:498px;top:150px;width:1395px}
+.item{height:222px}
+.panel{position:relative;height:190px;border-radius:14px;background:#F5F5F5;display:flex;align-items:center;justify-content:center}
+.panel img{height:70px;width:auto;display:block}
+.g{position:absolute;left:0;right:0;border-top:1px dashed #C9C4D6}
+.cap{font-size:14px;color:#525252;margin-top:6px}
+.sym{position:absolute;left:27px;bottom:30px;width:50px;height:50px}
+</style></head><body><div class="slide">
+<div class="rule rl"></div><div class="rule rr"></div>
+<div class="head"><b>Logo</b>Wordmark</div>
+<div class="text">The Agentic family has multiple logos. Masumi is the payment layer. Sokosumi, soon Marketing OS, is the workplace OS and agent marketplace. CMO.XYZ is the autonomous marketing agent.</div>
+<div class="col" id="col"></div>
+<img class="sym" src="logos/masumi/masumi-symbol.svg" alt="Masumi symbol">
+</div>
+<script>
+const items=[["Masumi","logos/masumi/masumi-logo-wordmark-black.svg",70],["Sokosumi","logos/sokosumi/sokosumi-logo-wordmark-black.svg",69],["Marketing OS","logos/marketing-os/marketing-os-wordmark-black.svg",98],["CMO.XYZ","logos/cmo-xyz/cmo-xyz-wordmark-black.svg",93]];
+const col=document.getElementById('col');
+items.forEach(([n,src,h])=>{const d=document.createElement('div');d.className='item';d.innerHTML=`<div class="panel"><img src="${src}" alt="${n}" style="height:${h}px"></div><div class="cap">${n}</div>`;col.appendChild(d);});
+const G=[[74.0, 128.5], [75.5, 129.5], [60.5, 115.5], [62.5, 116.5]];document.querySelectorAll('.panel').forEach((p,k)=>G[k].forEach(v=>{const g=document.createElement('i');g.className='g';g.style.top=v+'px';p.appendChild(g);}));
+
+</script></body></html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Logo spacing slide</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;background:#fff}
+.slide{position:relative;width:1920px;height:1080px;background:#fff;color:#000;font-family:Inter,system-ui,sans-serif;border-top:2px solid #000;overflow:hidden}
+.rule{position:absolute;top:34px;height:2px;background:#000}
+.rl{left:27px;width:455px}.rr{left:498px;width:1395px}
+.head{position:absolute;left:498px;top:52px;font-size:20px;line-height:24px}.head b{font-weight:600;display:block}
+.text{position:absolute;left:27px;top:230px;width:440px;font-size:20px;line-height:25px}
+.text p{margin:0 0 20px}
+.grid{position:absolute;left:498px;top:230px;width:1398px;height:799px;display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.panel{border-radius:14px;background:#F5F5F5;overflow:hidden}.panel svg{display:block;width:100%;height:100%}
+.sym{position:absolute;left:27px;bottom:30px;width:50px;height:50px}
+.lbl{font:400 12px Inter,system-ui,sans-serif;fill:#737373}
+</style></head><body><div class="slide">
+<div class="rule rl"></div><div class="rule rr"></div>
+<div class="head"><b>Logo</b>Spacing between logos</div>
+<div class="text"><p>When two logos sit side by side or stacked, keep 2x of space between them.</p><p>x is the width of the "s" in the wordmark.</p><p>The space is the same in a horizontal and a vertical arrangement.</p></div>
+<div class="grid"><div class="panel"><svg id="a" viewBox="0 0 690 799"></svg></div><div class="panel"><svg id="b" viewBox="0 0 690 799"></svg></div></div>
+<img class="sym" src="logos/masumi/masumi-symbol.svg" alt="Masumi symbol">
+</div>
+<script>
+const WM='<path d="M1920,65.9h-32.84v223.02h32.84V65.9Z"/><path d="M959.9,60.16c-65.37,0-118.38,52.58-118.38,117.45h32.89c0-46.77,38.35-84.82,85.49-84.82s85.49,38.05,85.49,84.82h32.89c0-64.86-53-117.45-118.38-117.45Z"/><path d="M894.22,295.04c65.38,0,118.38-52.58,118.38-117.45h-32.89c0,46.77-38.35,84.82-85.49,84.82s-85.49-38.06-85.49-84.82h-32.89c0,64.86,53,117.45,118.38,117.45Z"/><path d="M1331.52,65.92v110.53c0,47.23-38.35,85.64-85.49,85.64s-85.49-38.43-85.49-85.64v-110.53h-32.89v110.53c0,65.49,53,118.59,118.38,118.59s118.38-53.1,118.38-118.59v-110.53h-32.89Z"/><path d="M1430.22,288.92v-110.54c0-47.23,38.35-85.64,85.49-85.64s85.49,38.43,85.49,85.64v110.54h32.89v-110.54c0-65.49-53.01-118.58-118.38-118.58s-118.38,53.09-118.38,118.58v110.54h32.89Z"/><path d="M1719.38,59.8c-30.78,0-58.81,11.77-79.85,31.05,6.68,9.42,12.19,19.51,16.49,30.09,15.66-17.31,38.26-28.21,63.36-28.21,47.15,0,85.49,38.43,85.49,85.64v110.54h32.89v-110.54c0-65.49-53-118.58-118.38-118.58h0Z"/><path d="M32.89,288.92v-110.54c0-47.23,38.35-85.64,85.49-85.64s85.49,38.43,85.49,85.64v110.54h32.89v-110.54c0-65.49-53-118.58-118.38-118.58S0,112.89,0,178.38v110.54h32.89Z"/><path d="M322.04,59.8c-30.78,0-58.81,11.77-79.85,31.05,6.68,9.42,12.19,19.51,16.49,30.09,15.66-17.31,38.26-28.21,63.36-28.21,47.15,0,85.49,38.43,85.49,85.64v110.54h32.89v-110.54c0-65.49-53-118.58-118.38-118.58h0Z"/><path d="M1920,0h-32.84v32.9h32.84V0Z"/><path d="M726.55,176.1v-109.92h-32.84v30.24c-21.56-22.33-51.87-36.26-85.49-36.26-65.38,0-118.38,52.58-118.38,117.45s53,117.45,118.38,117.45c18.91,0,36.8-4.41,52.65-12.24v-38.44c-14.52,11.3-32.8,18.07-52.65,18.07-47.15,0-85.49-38.06-85.49-84.82s38.36-84.82,85.49-84.82,85.49,38.06,85.49,84.82c0,1-.04,1.99-.08,2.99.04.66.08,1.32.08,1.99v106.35h32.84v-109.84c0-.49.04-.99.04-1.49s-.03-.98-.04-1.49v-.03Z"/>';
+const W=224,k=W/1920,H=295.05*k,x=302.5*k,gap=2*x,sx0=775.8*k,sx1=1078.3*k;
+const logo=(px,py)=>`<g transform="translate(${px} ${py}) scale(${k})" fill="#000">${WM}</g>`;
+const dl=(a,b,c,d)=>`<line x1="${a}" y1="${b}" x2="${c}" y2="${d}" stroke="#FF6ED2" stroke-opacity=".5" stroke-dasharray="4 4"/>`;
+const hd=(a,b,y,t)=>`<line x1="${a}" y1="${y}" x2="${b}" y2="${y}" stroke="#737373"/><path d="M${a+5} ${y-3}L${a} ${y}L${a+5} ${y+3}M${b-5} ${y-3}L${b} ${y}L${b-5} ${y+3}" stroke="#737373" fill="none"/><text class="lbl" x="${(a+b)/2}" y="${y+22}" text-anchor="middle">${t}</text>`;
+// horizontal
+const x1=(690-(2*W+gap))/2, cy=399.5, y1=cy-H/2, ex=x1+W;
+let a=`<rect x="${ex}" y="${y1}" width="${gap}" height="${H}" fill="#FFC8F0" fill-opacity=".6"/>`+
+ dl(x1,0,x1,799)+dl(x1+sx0,0,x1+sx0,799)+dl(x1+sx1,0,x1+sx1,799)+dl(ex,0,ex,799)+dl(ex+gap,0,ex+gap,799)+dl(ex+gap+W,0,ex+gap+W,799)+
+ logo(x1,y1)+logo(ex+gap,y1)+hd(x1+sx0,x1+sx1,y1+H+90,'x')+hd(ex,ex+gap,y1+H+90,'2x');
+document.getElementById('a').innerHTML=a;
+// vertical
+const px=(690-W)/2, vtop=cy-(2*H+gap)/2, vbot=vtop+H+gap;
+let b=`<rect x="${px}" y="${vtop+H}" width="${W}" height="${gap}" fill="#FFC8F0" fill-opacity=".6"/>`+
+ `<line x1="0" y1="${vtop+H}" x2="690" y2="${vtop+H}" stroke="#FF6ED2" stroke-opacity=".5" stroke-dasharray="4 4"/><line x1="0" y1="${vbot}" x2="690" y2="${vbot}" stroke="#FF6ED2" stroke-opacity=".5" stroke-dasharray="4 4"/>`+
+ logo(px,vtop)+logo(px,vbot);
+const ax=px+W+60;
+b+=`<line x1="${ax}" y1="${vtop+H}" x2="${ax}" y2="${vbot}" stroke="#737373"/><path d="M${ax-3} ${vtop+H+5}L${ax} ${vtop+H}L${ax+3} ${vtop+H+5}M${ax-3} ${vbot-5}L${ax} ${vbot}L${ax+3} ${vbot-5}" stroke="#737373" fill="none"/><text class="lbl" x="${ax+12}" y="${(vtop+H+vbot)/2+4}">2x</text>`;
+document.getElementById('b').innerHTML=b;
+</script></body></html>

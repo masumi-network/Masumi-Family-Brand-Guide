@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Logo clearspace slide</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;background:#fff}
+.slide{position:relative;width:1920px;height:1080px;background:#fff;color:#000;font-family:Inter,system-ui,sans-serif;border-top:2px solid #000;overflow:hidden}
+.rule{position:absolute;top:34px;height:2px;background:#000}
+.rl{left:27px;width:455px}.rr{left:498px;width:1395px}
+.head{position:absolute;left:498px;top:52px;font-size:20px;line-height:24px}.head b{font-weight:600;display:block}
+.text{position:absolute;left:27px;top:230px;width:440px;font-size:20px;line-height:25px}
+.text p{margin:0 0 20px}
+.panel{position:absolute;left:498px;top:230px;width:1398px;height:799px;border-radius:14px;background:#F5F5F5;overflow:hidden}
+.panel svg{display:block;width:100%;height:100%}
+.cap{position:absolute;left:498px;top:1036px;font-size:14px;color:#525252}
+.sym{position:absolute;left:27px;bottom:30px;width:50px;height:50px}
+.lbl{font:400 12px Inter,system-ui,sans-serif;fill:#737373}
+</style></head><body><div class="slide">
+<div class="rule rl"></div><div class="rule rr"></div>
+<div class="head"><b>Logo</b>Clearspace, wordmark<br><span id="sub"></span></div>
+<div class="text" id="txt"></div>
+<div class="panel"><svg id="svg" viewBox="0 0 1456 832" xmlns="http://www.w3.org/2000/svg"></svg></div>
+<div class="cap">Masumi</div>
+<img class="sym" src="logos/masumi/masumi-symbol.svg" alt="Masumi symbol">
+</div>
+<script>
+const c=location.hash==='#1'?1:2;
+document.getElementById('sub').textContent=c===2?'Below 30 px height':'Above 30 px height';
+document.getElementById('txt').innerHTML=
+ '<p>Give the logo room from the margins and from other elements on the page. Everything starts with the logo.</p>'+
+ (c===2?'<p>Below 30 px tall, keep 2x of clear space on every side.</p>':'<p>Above 30 px tall, keep 1x of clear space on every side.</p>')+
+ '<p>x is the width of the "s" in the wordmark.</p>';
+const k=438/1920, W=438, H=295.05*k, wx=510, wy=382-0.5, u=302.5*k, pad=c*u;
+const x0=wx-pad,x1=wx+W+pad,y0=wy-pad,y1=wy+H+pad;
+const S1='M959.9,60.16c-65.37,0-118.38,52.58-118.38,117.45h32.89c0-46.77,38.35-84.82,85.49-84.82s85.49,38.05,85.49,84.82h32.89c0-64.86-53-117.45-118.38-117.45Z';
+const S2='M894.22,295.04c65.38,0,118.38-52.58,118.38-117.45h-32.89c0,46.77-38.35,84.82-85.49,84.82s-85.49-38.06-85.49-84.82h-32.89c0,64.86,53,117.45,118.38,117.45Z';
+const gx=775.8,gy=60,gw=302.5,gh=235,g=c*k;
+function glyph(cx,cy,rot){return `<g transform="translate(${cx} ${cy}) rotate(${rot}) scale(${g}) translate(${-(gx+gw/2)} ${-(gy+gh/2)})" fill="#FFC8F0"><path d="${S1}"/><path d="${S2}"/></g>`;}
+const gW=gw*g,gH=gh*g;
+let s='';
+s+=`<rect x="${x0}" y="${y0}" width="${x1-x0}" height="${y1-y0}" fill="#FFC8F0" fill-opacity=".3"/>`;
+const line=(a,b,cc,d)=>`<line x1="${a}" y1="${b}" x2="${cc}" y2="${d}" stroke="#FF6ED2" stroke-opacity=".5" stroke-width="1" stroke-dasharray="4 4"/>`;
+const sx0=wx+gx*k, sx1=wx+(gx+gw)*k;
+[x0,wx,sx0,sx1,wx+W,x1].forEach(x=>s+=line(x,0,x,832));
+[y0,wy,wy+H,y1].forEach(y=>s+=line(0,y,1456,y));
+s+=glyph(wx+gH/2,wy-gW/2,90);          // top, vertical
+s+=glyph(wx+W+gW/2,wy-gH/2,0);          // right
+s+=glyph(wx-gW/2,wy+H+gH/2,180);        // bottom left
+s+=glyph(wx+W-gH/2,wy+H+gW/2,270);      // bottom right
+s+=`<g transform="translate(${wx} ${wy}) scale(${k})" fill="#000"><path d="M1920,65.9h-32.84v223.02h32.84V65.9Z"/><path d="${S1}"/><path d="${S2}"/><path d="M1331.52,65.92v110.53c0,47.23-38.35,85.64-85.49,85.64s-85.49-38.43-85.49-85.64v-110.53h-32.89v110.53c0,65.49,53,118.59,118.38,118.59s118.38-53.1,118.38-118.59v-110.53h-32.89Z"/><path d="M1430.22,288.92v-110.54c0-47.23,38.35-85.64,85.49-85.64s85.49,38.43,85.49,85.64v110.54h32.89v-110.54c0-65.49-53.01-118.58-118.38-118.58s-118.38,53.09-118.38,118.58v110.54h32.89Z"/><path d="M1719.38,59.8c-30.78,0-58.81,11.77-79.85,31.05,6.68,9.42,12.19,19.51,16.49,30.09,15.66-17.31,38.26-28.21,63.36-28.21,47.15,0,85.49,38.43,85.49,85.64v110.54h32.89v-110.54c0-65.49-53-118.58-118.38-118.58h0Z"/><path d="M32.89,288.92v-110.54c0-47.23,38.35-85.64,85.49-85.64s85.49,38.43,85.49,85.64v110.54h32.89v-110.54c0-65.49-53-118.58-118.38-118.58S0,112.89,0,178.38v110.54h32.89Z"/><path d="M322.04,59.8c-30.78,0-58.81,11.77-79.85,31.05,6.68,9.42,12.19,19.51,16.49,30.09,15.66-17.31,38.26-28.21,63.36-28.21,47.15,0,85.49,38.43,85.49,85.64v110.54h32.89v-110.54c0-65.49-53-118.58-118.38-118.58h0Z"/><path d="M1920,0h-32.84v32.9h32.84V0Z"/><path d="M726.55,176.1v-109.92h-32.84v30.24c-21.56-22.33-51.87-36.26-85.49-36.26-65.38,0-118.38,52.58-118.38,117.45s53,117.45,118.38,117.45c18.91,0,36.8-4.41,52.65-12.24v-38.44c-14.52,11.3-32.8,18.07-52.65,18.07-47.15,0-85.49-38.06-85.49-84.82s38.36-84.82,85.49-84.82,85.49,38.06,85.49,84.82c0,1-.04,1.99-.08,2.99.04.66.08,1.32.08,1.99v106.35h32.84v-109.84c0-.49.04-.99.04-1.49s-.03-.98-.04-1.49v-.03Z"/></g>`;
+const ay=637;
+function dim(a,b,t){return `<line x1="${a}" y1="${ay}" x2="${b}" y2="${ay}" stroke="#737373" stroke-width="1"/><path d="M${a+5} ${ay-3}L${a} ${ay}L${a+5} ${ay+3}M${b-5} ${ay-3}L${b} ${ay}L${b-5} ${ay+3}" stroke="#737373" fill="none"/><text class="lbl" x="${(a+b)/2}" y="${ay+22}" text-anchor="middle">${t}</text>`;}
+s+=dim(x0,wx,c+'x')+dim(sx0,sx1,'1x');
+document.getElementById('svg').innerHTML=s;
+</script></body></html>
