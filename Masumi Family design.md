@@ -828,22 +828,6 @@ To define: chart types, a chart color sequence from each brand palette, labeling
 
 ---
 
-## In process
-
-Work that is underway and not final. Do not treat any of it as locked. When an item locks, move it into its section and change its status.
-
-| Item | What is happening | Brand | Status |
-|---|---|---|---|
-| Social media templates | First draft in progress: a 4:5 feed post for the Cuso launch. Format sizes, grid, and logo placement still to set (Section 6.3). Not in this repo yet | All | Working |
-| Social post examples | One example per brand once the templates are set | All | TBD |
-| Other templates | Flier (print), slide decks, email signatures, email and newsletter layouts, website page layouts, event and booth materials (Section 6.3). Build order is Open | All | TBD |
-| Cuso background | The render and avatars have a solid light gray background. A transparent version is needed so the brand gradients can show behind Cuso. Background rules for CMO.XYZ follow | CMO.XYZ | Pending |
-| Cuso PFP images | The 20 pictures will be reduced to a final set. The direction is confirmed | CMO.XYZ | Pending |
-| Cuso 3D model | The texture and material files are missing, so the model opens untextured | CMO.XYZ | Pending |
-| Voice and tone | Masumi and Sokosumi voice is still to write (Section 6.5) | Masumi, Sokosumi | TBD |
-
----
-
 ## Open decisions
 
 | # | Decision | Needed for | Status |
