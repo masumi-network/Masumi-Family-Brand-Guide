@@ -1,0 +1,54 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Typography slides</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;background:#fff}
+.slide{position:relative;width:1920px;height:1080px;background:#fff;color:#000;font-family:Inter,system-ui,sans-serif;border-top:2px solid #000;overflow:hidden}
+.slide.dark{background:#171717;color:#fff;border-top-color:#171717}
+.rule{position:absolute;top:34px;height:2px;background:#000}.dark .rule{background:#fff}
+.rl{left:27px;width:455px}.rr{left:498px;width:1395px}
+.head{position:absolute;left:498px;top:52px;font-size:20px;line-height:24px}.head b{font-weight:600;display:block}
+.text{position:absolute;left:27px;top:230px;width:440px;font-size:20px;line-height:25px}
+.text p{margin:0 0 22px}.text ul{margin:0;padding-left:22px}.text li{margin:0 0 20px}
+.sym{position:absolute;left:27px;bottom:30px;width:50px;height:50px}
+.panel{position:relative;border-radius:14px;background:#F5F5F5;overflow:hidden}
+.big{position:absolute;left:498px;top:230px;width:1398px;height:799px}
+.cap{font-size:14px;color:#525252;margin-top:8px}
+.grid{position:absolute;left:498px;top:230px;width:1398px;display:grid;grid-template-columns:1fr 1fr;column-gap:18px}
+.cell .panel{height:374px}
+.inner{position:absolute;inset:24px;border:1px dashed rgba(255,110,210,.5)}
+.vline{position:absolute;left:50%;top:0;bottom:0;border-left:1px dashed rgba(255,110,210,.5)}
+.badge{position:absolute;left:34px;bottom:34px;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;z-index:2}
+.ok{background:#00D43B}.no{background:#fff;border:2px solid #0C0C0C}
+.hl{font-weight:300;font-size:46px;line-height:1.15}
+.pp{font-size:19px;line-height:1.3;width:440px}
+table{border-collapse:collapse;width:100%;font-size:19px}
+</style></head><body><div id="root"></div>
+<script>
+const n=parseInt(location.hash.slice(1)||'1');
+const OK='<div class="badge ok"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#0C0C0C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 9.5l4 4 7-8"/></svg></div>';
+const OKR=OK;
+const NO='<div class="badge no"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#0C0C0C" stroke-width="2" stroke-linecap="round"><path d="M3.5 3.5l9 9M12.5 3.5l-9 9"/></svg></div>';
+const chrome=(sub,txt,dark)=>`<div class="rule rl"></div><div class="rule rr"></div>`+(sub?`<div class="head"><b>Typography</b>${sub}</div>`:'')+(txt?`<div class="text">${txt}</div>`:'')+`<img class="sym" src="logos/masumi/masumi-symbol.svg" alt="Masumi symbol">`;
+let cls='slide',html='';
+if(n===1){cls+=' dark';html=`<div class="rule rl"></div><div class="rule rr"></div><div style="position:absolute;left:520px;top:50px;font-size:224px;font-weight:300;line-height:1.1;letter-spacing:-0.04em">Typography</div><img class="sym" src="logos/masumi/masumi-symbol.svg" alt="">`;}
+if(n===2){html=chrome('Typeface','<p>All three brands use Inter. It is a versatile, clear typeface that keeps the system simple and modern across every touchpoint.</p>')+`<div class="panel big"><div style="position:absolute;left:44px;top:6px;font-size:300px;line-height:1.1;letter-spacing:-0.03em">Inter</div><div style="position:absolute;left:44px;bottom:26px;font-size:62px;line-height:64px;letter-spacing:-0.01em">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>1234567890!@#$”%^&amp;*,;/{}[]()?!</div></div>`;}
+if(n===3){html=chrome('Weights',`<p>The system uses a very limited set of weights. It should feel simple and carry gravitas.</p><p><b>Inter Light</b> is for primary headlines and impactful statements, such as hero sections and minimalist designs. It feels airy without losing legibility. Never use it for body text or small sizes.</p><p><b>Inter Regular</b> is the workhorse for body text and interface text. It is clean and approachable.</p><p><b>Inter Medium</b> and <b>Semibold</b> are for subtle emphasis: subheadings and callouts. Semibold also sets headings inside product UI. Use them sparingly and pair them with Regular.</p>`)+`<div class="panel big"><div style="position:absolute;left:36px;top:30px;font-size:150px;line-height:158px;letter-spacing:-0.03em"><div style="font-weight:300">Inter Light</div><div style="font-weight:400">Inter Regular</div><div style="font-weight:500">Inter Medium</div><div style="font-weight:600">Inter Semibold</div></div></div>`;}
+if(n===4){const R=[["Regular",6,8,"0%"],["Regular",7,10,"0%"],["Regular",8,12,"0%"],["Regular",9,12,"0%"],["Regular",10,14,"0%"],["Regular",11,14,"0%"],["Regular",12,16,"0%"],["Regular",14,18,"0%"],["Regular",16,20,"0%"],["Regular",18,22,"0%"],["Light",20,24,"0%"],["Light",24,28,"-0.5%"],["Light",28,32,"-1%"],["Light",32,36,"-1.5%"],["Light",36,40,"-2%"],["Light",42,48,"-2.5%"],["Light",48,56,"-3%"],["Light",55,56,"-3%"],["Light",64,64,"-3.5%"],["Light",73,72,"-4%"],["Light",84,80,"-5%"],["Light",96,86,"-5%"],["Light",110,104,"-5%"]];
+html=chrome('Typescale',`<p>This list shows 23 steps in the Inter scale. For larger sizes, use the formula to create more harmonious sizes.</p><p>The weight switches from Regular to Light at 20px.</p><p>Line height can be adjusted when a layout needs it.</p><p>The scale is pentatonic: the size doubles every five steps. The base size is 12px.</p><p>a<sub>n</sub> = a<sub>0</sub> × r<sup>(n−1)</sup></p><p>where a<sub>n</sub> is the type size, a<sub>0</sub> is the base size (12px), n is the step, and r = 2<sup>(1/5)</sup> ≈ 1.1487.</p><p>Example: a<sub>15</sub> = 12 × 1.1487<sup>(15−1)</sup> ≈ 84px</p>`)+`<div style="position:absolute;left:498px;top:228px;width:1395px;border-top:2px solid #000"><table><thead><tr style="height:56px;border-bottom:1px solid #D4D4D4"><td>Style</td><td>Type size</td><td>Line height</td><td>Letter spacing</td></tr></thead><tbody>${R.map(r=>`<tr style="height:28px"><td>Inter ${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td></tr>`).join('')}</tbody></table></div>`;}
+if(n===5){const cell=(lab,inner,ok,extra='')=>`<div class="cell"><div class="panel"><div class="inner">${extra}${inner}</div>${ok?OKR:NO}</div><div class="cap">${lab}</div></div>`;
+const two=(al)=>`<div style="position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;padding-bottom:52px"><div class="hl" style="text-align:${al};width:300px;${al==='right'?'align-self:flex-end;':''}">${al==='right'?'Right-aligned<br>type':'Left-aligned<br>type'}</div><div class="hl" style="text-align:${al};width:300px;${al==='right'?'align-self:flex-end;':''}">${al==='right'?'Right-aligned<br>type':'Left-aligned<br>type'}</div></div>`;
+html=chrome('Alignment','<p>Align type in two ways only: left-aligned or centered. Never right-align or force-justify type.</p>')+`<div class="grid" style="row-gap:18px">`+
+cell('Centered',`<div class="hl" style="position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);text-align:center">Centered type</div>`,true,'<div class="vline"></div>')+
+cell('Left aligned',two('left'),true)+cell('Right aligned',two('right'),false)+
+cell('Justify',`<div class="hl" style="position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);text-align:justify;text-align-last:justify">Justified type</div>`,false)+`</div>`;}
+if(n===6){const S="AI agents that are capable of learning, adapting, and even making decisions are becoming indispensable tools in today’s fast-paced digital landscape.";
+const cell=(lab,st,ok,extra='')=>`<div class="cell"><div class="panel"><div class="inner">${extra}<div class="pp" style="position:absolute;${st}">${S}</div></div>${ok?OKR:NO}</div><div class="cap">${lab}</div></div>`;
+html=chrome('Alignment','<p>The same goes for paragraphs. Align left or centered. Never right-align or justify.</p>')+`<div class="grid" style="row-gap:18px">`+
+cell('Centered','left:50%;top:50%;transform:translate(-50%,-50%);text-align:center',true,'<div class="vline"></div>')+
+cell('Left aligned','left:0;top:0;text-align:left',true)+cell('Right aligned','right:0;top:0;text-align:right',false)+cell('Justify','left:0;top:0;text-align:justify',false)+`</div>`;}
+if(n===7){const S="AI agents that are capable of learning, adapting, and even making decisions are becoming indispensable tools in today’s fast-paced digital landscape.";
+const c=(st,t=S)=>`<div class="cell"><div class="panel" style="height:262px"><div style="position:absolute;left:32px;top:30px;width:626px;font-size:22px;${st}">${t}</div>${NO}</div></div>`;
+html=chrome('Don’ts',`<ul><li>Avoid extremely tall leading for both headings and body text.</li><li>Avoid overly tight leading, with crashing ascenders and descenders, for both headings and body text.</li><li>Avoid overly tight tracking, with crashing glyphs.</li><li>Avoid overly wide tracking.</li><li>Avoid mixed weights within a single headline.</li><li>Do not set headlines in all caps. Headlines use sentence case.</li></ul>`)+`<div class="grid" style="row-gap:17px">`+
+c('line-height:1.7')+c('line-height:.82')+c('letter-spacing:-0.07em;line-height:1.2')+c('letter-spacing:.14em;line-height:1.3')+
+c('line-height:1.25',"AI agents that are <b style='font-weight:600'>capable of learning</b>, adapting, and even making decisions are <b style='font-weight:600'>becoming indispensable tools</b> in today’s fast-paced digital landscape.")+c('line-height:1.25;text-transform:uppercase')+`</div>`;}
+document.getElementById('root').innerHTML=`<div class="${cls}">${html}</div>`;
+</script></body></html>
