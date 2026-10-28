@@ -33,7 +33,7 @@ All three share one palette, one graphic language, and one set of UI/UX rules (S
 
 The Agentic family has multiple logos. Masumi is the payment layer, Sokosumi is the workplace OS and agent marketplace, and CMO.XYZ is the autonomous marketing agent. Marketing OS is the upcoming name for Sokosumi. The slide follows this guide: Inter, the shared neutrals, the xl radius, and black logos only. The dashed lines mark each wordmark's x-height and baseline.
 
-![The Agentic family logos](Agentic%20Family%20Brand%20Slides/agentic-family-slide.png)
+![The Agentic family logos](Masumi%20Family%20Brand%20Guide%20Slides/agentic-family-slide.png)
 
 | Brand | Role | Logo |
 |---|---|---|
@@ -42,7 +42,7 @@ The Agentic family has multiple logos. Masumi is the payment layer, Sokosumi is 
 | Marketing OS | Upcoming name for Sokosumi | ![Marketing OS](logos/marketing-os/marketing-os-wordmark-black.svg) |
 | CMO.XYZ | Autonomous marketing agent | ![CMO.XYZ](logos/cmo-xyz/cmo-xyz-wordmark-black.svg) |
 
-The slide is `Agentic Family Brand Slides/agentic-family-slide.png` (16:9, 1920 by 1080 at 2x). Its editable source is `agentic-family-slide.html`.
+The slide is `Masumi Family Brand Guide Slides/agentic-family-slide.png` (16:9, 1920 by 1080 at 2x). Its editable source is `agentic-family-slide.html`.
 
 ### Telling the brands apart
 
@@ -109,17 +109,17 @@ Nothing enters the clear space around the wordmark: no text, no other logos, no 
 | Below 30 px | 2x |
 | Above 30 px | 1x |
 
-![Logo clearspace, below 30 px height](Agentic%20Family%20Brand%20Slides/logo-clearspace-below-30px.png)
+![Logo clearspace, below 30 px height](Masumi%20Family%20Brand%20Guide%20Slides/logo-clearspace-below-30px.png)
 
-![Logo clearspace, above 30 px height](Agentic%20Family%20Brand%20Slides/logo-clearspace-above-30px.png)
+![Logo clearspace, above 30 px height](Masumi%20Family%20Brand%20Guide%20Slides/logo-clearspace-above-30px.png)
 
-The slides are in `Agentic Family Brand Slides/`. Their editable source is `sources/logo-clearspace-slide.html`. Open it with `#1` or `#2` at the end of the address for the 1x or 2x version.
+The slides are in `Masumi Family Brand Guide Slides/`. Their editable source is `sources/logo-clearspace-slide.html`. Open it with `#1` or `#2` at the end of the address for the 1x or 2x version.
 
 ### Logo spacing
 
 When two logos sit side by side or stacked, keep 2x of space between them. x is the width of the "s" in the wordmark. The space is the same in a horizontal and a vertical arrangement. **Proposed:** the 2x value is measured from the spacing in the original partnerships slide. Confirm it.
 
-![Spacing between logos](Agentic%20Family%20Brand%20Slides/logo-spacing.png)
+![Spacing between logos](Masumi%20Family%20Brand%20Guide%20Slides/logo-spacing.png)
 
 The editable source is `logo-spacing-slide.html`.
 
@@ -127,7 +127,7 @@ The editable source is `logo-spacing-slide.html`.
 
 When the Masumi logo sits next to a partner logo, size the partner logo optically so it carries the same visual weight as ours. Do not match height or width. Use a horizontal or vertical arrangement with the wordmark only.
 
-![Logo partnerships: correct and incorrect sizing](Agentic%20Family%20Brand%20Slides/logo-partnerships.png)
+![Logo partnerships: correct and incorrect sizing](Masumi%20Family%20Brand%20Guide%20Slides/logo-partnerships.png)
 
 - **Correct (green check).** The partner logo is sized to look equal in weight to the wordmark, in a horizontal or a vertical arrangement.
 - **Incorrect (x).** The partner logo is too small, or it is enlarged to match the width of the wordmark.
@@ -516,13 +516,13 @@ shadcn/ui, Radix, and Tailwind are web only, so they do not cover native iOS and
 
 The typographic system uses a very limited set of weights and styles. It should feel simple and carry gravitas.
 
-![Typography](Agentic%20Family%20Brand%20Slides/typography-slide-01-title.png)
+![Typography](Masumi%20Family%20Brand%20Guide%20Slides/typography-slide-01-title.png)
 
 **Typeface**
 
 - All brands use Inter. Web fallback: system-ui, -apple-system, Segoe UI, sans-serif.
 
-![Typeface: Inter](Agentic%20Family%20Brand%20Slides/typography-slide-02-typeface.png)
+![Typeface: Inter](Masumi%20Family%20Brand%20Guide%20Slides/typography-slide-02-typeface.png)
 
 **Weights**
 
@@ -537,7 +537,7 @@ The typographic system uses a very limited set of weights and styles. It should 
 - Medium and Semibold are used sparingly, to keep a cohesive visual flow with Regular.
 - Do not mix weights inside one headline.
 
-![Weights](Agentic%20Family%20Brand%20Slides/typography-slide-03-weights.png)
+![Weights](Masumi%20Family%20Brand%20Guide%20Slides/typography-slide-03-weights.png)
 
 **Typescale**
 
@@ -574,7 +574,7 @@ The typographic system uses a very limited set of weights and styles. It should 
 | Inter Light | 96 | 86 | -5% |
 | Inter Light | 110 | 104 | -5% |
 
-![Typescale](Agentic%20Family%20Brand%20Slides/typography-slide-04-typescale.png)
+![Typescale](Masumi%20Family%20Brand%20Guide%20Slides/typography-slide-04-typescale.png)
 
 **Product UI roles**
 
@@ -586,9 +586,9 @@ The typographic system uses a very limited set of weights and styles. It should 
 - Align type in two ways only: left-aligned or centered. Never right-align or force-justify type.
 - The same goes for paragraphs.
 
-![Alignment of headlines](Agentic%20Family%20Brand%20Slides/typography-slide-05-alignment-headlines.png)
+![Alignment of headlines](Masumi%20Family%20Brand%20Guide%20Slides/typography-slide-05-alignment-headlines.png)
 
-![Alignment of paragraphs](Agentic%20Family%20Brand%20Slides/typography-slide-06-alignment-paragraphs.png)
+![Alignment of paragraphs](Masumi%20Family%20Brand%20Guide%20Slides/typography-slide-06-alignment-paragraphs.png)
 
 **Rules**
 
@@ -601,7 +601,7 @@ The typographic system uses a very limited set of weights and styles. It should 
 - Avoid overly wide tracking.
 - Avoid mixed weights within a single headline.
 
-![Typography don'ts](Agentic%20Family%20Brand%20Slides/typography-slide-07-donts.png)
+![Typography don'ts](Masumi%20Family%20Brand%20Guide%20Slides/typography-slide-07-donts.png)
 
 ### 5.4 Layout
 
@@ -870,22 +870,22 @@ All paths are relative to this file. Keep this file and these folders together.
 | CMO.XYZ | `logos/cmo-xyz/cmo-xyz-wordmark-white.svg` |
 | Partner example (NMKR) | `logos/partners/nmkr-logo.png` |
 
-### Slides (`Agentic Family Brand Slides/`)
+### Slides (`Masumi Family Brand Guide Slides/`)
 
 | Slide | File | Section |
 |---|---|---|
-| The Agentic family | `Agentic Family Brand Slides/agentic-family-slide.png` | Overview |
-| Logo clearspace, below 30 px | `Agentic Family Brand Slides/logo-clearspace-below-30px.png` | 1, Logo clearspace |
-| Logo clearspace, above 30 px | `Agentic Family Brand Slides/logo-clearspace-above-30px.png` | 1, Logo clearspace |
-| Spacing between logos | `Agentic Family Brand Slides/logo-spacing.png` | 1, Logo spacing |
-| Logo partnerships | `Agentic Family Brand Slides/logo-partnerships.png` | 1, Logo partnerships |
-| Typography title | `Agentic Family Brand Slides/typography-slide-01-title.png` | 5.3 |
-| Typeface | `Agentic Family Brand Slides/typography-slide-02-typeface.png` | 5.3 |
-| Weights | `Agentic Family Brand Slides/typography-slide-03-weights.png` | 5.3 |
-| Typescale | `Agentic Family Brand Slides/typography-slide-04-typescale.png` | 5.3 |
-| Alignment, headlines | `Agentic Family Brand Slides/typography-slide-05-alignment-headlines.png` | 5.3 |
-| Alignment, paragraphs | `Agentic Family Brand Slides/typography-slide-06-alignment-paragraphs.png` | 5.3 |
-| Typography don'ts | `Agentic Family Brand Slides/typography-slide-07-donts.png` | 5.3 |
+| The Agentic family | `Masumi Family Brand Guide Slides/agentic-family-slide.png` | Overview |
+| Logo clearspace, below 30 px | `Masumi Family Brand Guide Slides/logo-clearspace-below-30px.png` | 1, Logo clearspace |
+| Logo clearspace, above 30 px | `Masumi Family Brand Guide Slides/logo-clearspace-above-30px.png` | 1, Logo clearspace |
+| Spacing between logos | `Masumi Family Brand Guide Slides/logo-spacing.png` | 1, Logo spacing |
+| Logo partnerships | `Masumi Family Brand Guide Slides/logo-partnerships.png` | 1, Logo partnerships |
+| Typography title | `Masumi Family Brand Guide Slides/typography-slide-01-title.png` | 5.3 |
+| Typeface | `Masumi Family Brand Guide Slides/typography-slide-02-typeface.png` | 5.3 |
+| Weights | `Masumi Family Brand Guide Slides/typography-slide-03-weights.png` | 5.3 |
+| Typescale | `Masumi Family Brand Guide Slides/typography-slide-04-typescale.png` | 5.3 |
+| Alignment, headlines | `Masumi Family Brand Guide Slides/typography-slide-05-alignment-headlines.png` | 5.3 |
+| Alignment, paragraphs | `Masumi Family Brand Guide Slides/typography-slide-06-alignment-paragraphs.png` | 5.3 |
+| Typography don'ts | `Masumi Family Brand Guide Slides/typography-slide-07-donts.png` | 5.3 |
 
 ### Cuso 3D mascot (`Cuso 3D Mascot/`)
 
