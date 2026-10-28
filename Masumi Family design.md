@@ -516,13 +516,13 @@ shadcn/ui, Radix, and Tailwind are web only, so they do not cover native iOS and
 
 The typographic system uses a very limited set of weights and styles. It should feel simple and carry gravitas.
 
-![Typography](typography/typography-01-title.png)
+![Typography](Visual%20Guide%20Slides/typography-slide-01-title.png)
 
 **Typeface**
 
 - All brands use Inter. Web fallback: system-ui, -apple-system, Segoe UI, sans-serif.
 
-![Typeface: Inter](typography/typography-02-typeface.png)
+![Typeface: Inter](Visual%20Guide%20Slides/typography-slide-02-typeface.png)
 
 **Weights**
 
@@ -537,7 +537,7 @@ The typographic system uses a very limited set of weights and styles. It should 
 - Medium and Semibold are used sparingly, to keep a cohesive visual flow with Regular.
 - Do not mix weights inside one headline.
 
-![Weights](typography/typography-03-weights.png)
+![Weights](Visual%20Guide%20Slides/typography-slide-03-weights.png)
 
 **Typescale**
 
@@ -574,7 +574,7 @@ The typographic system uses a very limited set of weights and styles. It should 
 | Inter Light | 96 | 86 | -5% |
 | Inter Light | 110 | 104 | -5% |
 
-![Typescale](typography/typography-04-typescale.png)
+![Typescale](Visual%20Guide%20Slides/typography-slide-04-typescale.png)
 
 **Product UI roles**
 
@@ -586,9 +586,9 @@ The typographic system uses a very limited set of weights and styles. It should 
 - Align type in two ways only: left-aligned or centered. Never right-align or force-justify type.
 - The same goes for paragraphs.
 
-![Alignment of headlines](typography/typography-05-alignment-headlines.png)
+![Alignment of headlines](Visual%20Guide%20Slides/typography-slide-05-alignment-headlines.png)
 
-![Alignment of paragraphs](typography/typography-06-alignment-paragraphs.png)
+![Alignment of paragraphs](Visual%20Guide%20Slides/typography-slide-06-alignment-paragraphs.png)
 
 **Rules**
 
@@ -601,7 +601,7 @@ The typographic system uses a very limited set of weights and styles. It should 
 - Avoid overly wide tracking.
 - Avoid mixed weights within a single headline.
 
-![Typography don'ts](typography/typography-07-donts.png)
+![Typography don'ts](Visual%20Guide%20Slides/typography-slide-07-donts.png)
 
 ### 5.4 Layout
 
@@ -879,13 +879,13 @@ All paths are relative to this file. Keep this file and these folders together.
 | Logo clearspace, above 30 px | `logos/logo-clearspace-above-30px.png` | 1, Logo clearspace |
 | Spacing between logos | `logos/logo-spacing.png` | 1, Logo spacing |
 | Logo partnerships | `logos/logo-partnerships.png` | 1, Logo partnerships |
-| Typography title | `typography/typography-01-title.png` | 5.3 |
-| Typeface | `typography/typography-02-typeface.png` | 5.3 |
-| Weights | `typography/typography-03-weights.png` | 5.3 |
-| Typescale | `typography/typography-04-typescale.png` | 5.3 |
-| Alignment, headlines | `typography/typography-05-alignment-headlines.png` | 5.3 |
-| Alignment, paragraphs | `typography/typography-06-alignment-paragraphs.png` | 5.3 |
-| Typography don'ts | `typography/typography-07-donts.png` | 5.3 |
+| Typography title | `Visual Guide Slides/typography-slide-01-title.png` | 5.3 |
+| Typeface | `Visual Guide Slides/typography-slide-02-typeface.png` | 5.3 |
+| Weights | `Visual Guide Slides/typography-slide-03-weights.png` | 5.3 |
+| Typescale | `Visual Guide Slides/typography-slide-04-typescale.png` | 5.3 |
+| Alignment, headlines | `Visual Guide Slides/typography-slide-05-alignment-headlines.png` | 5.3 |
+| Alignment, paragraphs | `Visual Guide Slides/typography-slide-06-alignment-paragraphs.png` | 5.3 |
+| Typography don'ts | `Visual Guide Slides/typography-slide-07-donts.png` | 5.3 |
 
 ### Cuso 3D mascot (`Cuso 3D Mascot/`)
 
@@ -895,15 +895,15 @@ All paths are relative to this file. Keep this file and these folders together.
 | `Cuso 3D Mascot/model/` | `cuso-mascot.obj`, 3D model (texture and material files missing) | 3 |
 | `Cuso 3D Mascot/avatars/` | 20 profile pictures, `cuso-profile-01` to `cuso-profile-20` | 3 |
 
-### Editable sources
+### Editable sources (`sources/`)
 
 | File | Makes |
 |---|---|
-| `agentic-family-slide.html` | The Agentic family slide |
-| `logo-clearspace-slide.html` | Clearspace slides (add `#1` for 1x, `#2` for 2x) |
-| `logo-spacing-slide.html` | Spacing slide |
-| `logo-partnerships-slide.html` | Partnerships slide |
-| `typography-slides.html` | Typography slides (add `#1` to `#7`) |
+| `sources/agentic-family-slide.html` | The Agentic family slide |
+| `sources/logo-clearspace-slide.html` | Clearspace slides (add `#1` for 1x, `#2` for 2x) |
+| `sources/logo-spacing-slide.html` | Spacing slide |
+| `sources/logo-partnerships-slide.html` | Partnerships slide |
+| `sources/typography-slides.html` | Typography slides (add `#1` to `#7`) |
 
 ### External references
 
