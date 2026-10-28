@@ -131,7 +131,7 @@ When the Masumi logo sits next to a partner logo, size the partner logo opticall
 
 - **Correct (green check).** The partner logo is sized to look equal in weight to the wordmark, in a horizontal or a vertical arrangement.
 - **Incorrect (x).** The partner logo is too small, or it is enlarged to match the width of the wordmark.
-- The example partner logo is NMKR, taken from the original Agentic brand guidelines (`logos/partners/nmkr-logo.png`). The editable source is `sources/logo-partnerships-slide.html`.
+- The example partner logo is NMKR, taken from the original Agentic brand guidelines. The partner logo file is not included for now. The editable source is `sources/logo-partnerships-slide.html`.
 
 ### Logo files
 
@@ -868,7 +868,6 @@ All paths are relative to this file. Keep this file and these folders together.
 | Marketing OS | `logos/marketing-os/marketing-os-wordmark-white.svg` |
 | CMO.XYZ | `logos/cmo-xyz/cmo-xyz-wordmark-black.svg` |
 | CMO.XYZ | `logos/cmo-xyz/cmo-xyz-wordmark-white.svg` |
-| Partner example (NMKR) | `logos/partners/nmkr-logo.png` |
 
 ### Slides (`Masumi Family Brand Guide Slides/`)
 
