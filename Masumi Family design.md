@@ -184,7 +184,7 @@ See Section 4. Gradients use Masumi's palette.
 ### Do and don't
 
 - Do keep the logo black or white on color.
-- Do use gradients and UI mockups for visuals. Don't use real photos.
+- Do use gradients and UI mockups for visuals.
 - Don't set the wordmark in all caps.
 
 ---
@@ -369,18 +369,27 @@ CMO.XYZ has no set graphic language. It follows Section 4: gradients and UI or p
 
 Applies to all three brands.
 
-**Status:** No graphic language is set. This section records what is used and what is not.
+**Status:** Working. This section is intentionally bare bones. Rules are added as we go.
 
-### Use
+### Confirmed
 - **Gradients.** The only decorative graphic element. Built from the shared Masumi palette. All three brands share the palette for gradients (Section 4, Gradient rules).
 - **UI and product mockups.** All product shots and explanations of the product are mockups of the real UI.
-- **The CMO.XYZ mascot,** for CMO.XYZ only (Section 3).
+- **The CMO.XYZ mascot and avatars,** for CMO.XYZ only (Section 3).
 
-### Do not use
-- Real photography or stock images of any kind
-- Ink, blur, and glow effects
-- A decorative grid
-- Generated or abstract art as a brand language
+### AI generated content
+- AI generation is used widely. It is decided case by case.
+- Label AI generated content where the country or platform requires it. Check the rules for the market before publishing.
+- Keep the tool and the prompt for each generated asset.
+- Who approves a use, and which markets require labels, is **Open**.
+
+### Not decided yet
+- Photography and stock images
+- Decorative grids
+- Blur and glow effects
+- Abstract art
+- Realistic AI generated images (images that imitate real people, places, or products)
+
+Until these are decided, check with brand and marketing before using any of them. They are tracked in Open decisions.
 
 ### Gradient rules (TBD)
 - Pairs: all brands draw gradient stops from the shared palette. Starting idea to confirm: Iris Flower to Vivid Sakura, Iris Flower to Crimson Purple, and Peach Blossom to Iris Flower.
@@ -710,7 +719,7 @@ These apply wherever an agent speaks or acts, in every brand.
 ### 5.9 Iconography and imagery
 
 - Use one icon family per product, outline style, consistent stroke. The icon set is **Pending**.
-- No photography or stock images. Use gradients and UI mockups. See Section 4.
+- Use gradients and UI mockups. Other imagery is not decided yet. See Section 4.
 - Provide text alternatives for every meaningful image.
 
 ### 5.10 Motion
@@ -828,6 +837,22 @@ To define: chart types, a chart color sequence from each brand palette, labeling
 
 ---
 
+## In process
+
+Work that is underway and not final. Do not treat any of it as locked. When an item locks, move it into its section and change its status.
+
+| Item | What is happening | Brand | Status |
+|---|---|---|---|
+| Social media templates | First draft in progress: a 4:5 feed post for the Cuso launch. Format sizes, grid, and logo placement still to set (Section 6.3). Not in this repo yet | All | Working |
+| Social post examples | One example per brand once the templates are set | All | TBD |
+| Other templates | Flier (print), slide decks, email signatures, email and newsletter layouts, website page layouts, event and booth materials (Section 6.3). Build order is Open | All | TBD |
+| Cuso background | The render and avatars have a solid light gray background. A transparent version is needed so the brand gradients can show behind Cuso. Background rules for CMO.XYZ follow | CMO.XYZ | Pending |
+| Cuso PFP images | The 20 pictures will be reduced to a final set. The direction is confirmed | CMO.XYZ | Pending |
+| Cuso 3D model | The texture and material files are missing, so the model opens untextured | CMO.XYZ | Pending |
+| Voice and tone | Masumi and Sokosumi voice is still to write (Section 6.5) | Masumi, Sokosumi | TBD |
+
+---
+
 ## Open decisions
 
 | # | Decision | Needed for | Status |
@@ -839,15 +864,16 @@ To define: chart types, a chart color sequence from each brand palette, labeling
 | 5 | How x is measured on every wordmark: Proposed as the height of the wordmark. Also the rule at exactly 30 px | Logo | Proposed |
 | 6 | Print minimum size for the wordmark (screen minimum is 14px) | Logo | Open |
 | 7 | Gradient and mockup rules | Section 4 | Open |
-| 8 | Imagery and iconography rules | Section 6.1 | Open |
-| 9 | Motion rules | Section 6.2 | Open |
-| 10 | Templates: confirm the list of template types in Section 6.3 and which to build first | Section 6.3 | Open |
-| 11 | Social media post examples for each brand | Section 6.3 | Open |
-| 12 | Partner and co-branding rules still to define: order and hierarchy, dividers, family co-branding, partner color, approval (size and spacing are in Section 1) | Section 6.4 | Open |
-| 13 | Voice and tone for Masumi and Sokosumi (CMO.XYZ voice is locked in Section 3) | Section 6.5 | Open |
-| 14 | Data visualization rules | Section 6.6 | Open |
-| 15 | Asset location and named owner | Governance | Open |
-| 16 | Wordmarks for Masumi Standard and Masumi Agent Wallet, if needed (Sokosumi and Marketing OS wordmarks are done) | All brands | Open |
+| 8 | Imagery and iconography rules: photography and stock, decorative grid, blur and glow, abstract art, and realistic AI generated images | Section 4, Section 6.1 | Open |
+| 9 | AI generation rules: who approves a use, which countries and platforms require labels, how to label, and where prompts are recorded | Section 4 | Open |
+| 10 | Motion rules | Section 6.2 | Open |
+| 11 | Templates: confirm the list of template types in Section 6.3 and which to build first | Section 6.3 | Open |
+| 12 | Social media post examples for each brand | Section 6.3 | Open |
+| 13 | Partner and co-branding rules still to define: order and hierarchy, dividers, family co-branding, partner color, approval (size and spacing are in Section 1) | Section 6.4 | Open |
+| 14 | Voice and tone for Masumi and Sokosumi (CMO.XYZ voice is locked in Section 3) | Section 6.5 | Open |
+| 15 | Data visualization rules | Section 6.6 | Open |
+| 16 | Asset location and named owner | Governance | Open |
+| 17 | Wordmarks for Masumi Standard and Masumi Agent Wallet, if needed (Sokosumi and Marketing OS wordmarks are done) | All brands | Open |
 
 ---
 
