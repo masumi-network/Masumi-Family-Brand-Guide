@@ -157,21 +157,23 @@ All files are in the `logos/` folder next to this file, one subfolder per brand.
 
 ### Color (shared by all three brands)
 
+![Masumi family color palette](Masumi%20Family%20Brand%20Guide%20Slides/color-palette-slide.png)
+
 The Masumi palette is the palette for Masumi, Sokosumi, and CMO.XYZ. It runs from pink through red and yellow, with softer tones taken from traditional Japanese colors. The primary is Iris Flower. Every other palette color is secondary.
 
-| Name | Hex |
-|---|---|
-| Crimson Purple | #460A23 |
-| **Iris Flower (primary)** | #FF51FF |
-| Electric Pink | #FA008C |
-| Vivid Sakura | #FF6ED2 |
-| Peach Blossom | #FFC8F0 |
-| Sand | #D7BE8C |
-| Persimmon | #FF6400 |
-| Scarlet | #FA140A |
-| Golden Yellow | #FFD300 |
+| Name | Hex | Role |
+|---|---|---|
+| Crimson Purple | #460A23 | Secondary |
+| Scarlet | #FA140A | Secondary |
+| Electric Pink | #FA008C | Secondary |
+| Persimmon | #FF6400 | Secondary |
+| **Iris Flower** | #FF51FF | **Primary** |
+| Vivid Sakura | #FF6ED2 | Secondary |
+| Sand | #D7BE8C | Secondary |
+| Golden Yellow | #FFD300 | Secondary, also the warning color |
+| Peach Blossom | #FFC8F0 | Secondary |
 
-Use the shared neutrals (Section 5.2) for everything else. Do not use the palette for status colors, except Golden Yellow as the warning color (Section 5.2).
+Colors are listed dark to light. Use the shared neutrals (Section 5.2) for everything else. Do not use the palette for status colors, except Golden Yellow as the warning color (Section 5.2).
 
 ### Typography
 
@@ -904,6 +906,7 @@ All paths are relative to this file. Keep this file and these folders together.
 | Logo clearspace, above 30 px | `Masumi Family Brand Guide Slides/logo-clearspace-above-30px.png` | 1, Logo clearspace |
 | Spacing between logos | `Masumi Family Brand Guide Slides/logo-spacing.png` | 1, Logo spacing |
 | Logo partnerships | `Masumi Family Brand Guide Slides/logo-partnerships.png` | 1, Logo partnerships |
+| Color palette | `Masumi Family Brand Guide Slides/color-palette-slide.png` | 1, Color |
 | Typography title | `Masumi Family Brand Guide Slides/typography-slide-01-title.png` | 5.3 |
 | Typeface | `Masumi Family Brand Guide Slides/typography-slide-02-typeface.png` | 5.3 |
 | Weights | `Masumi Family Brand Guide Slides/typography-slide-03-weights.png` | 5.3 |
