@@ -40,7 +40,7 @@ The Agentic family has multiple logos. Masumi is the payment layer, Sokosumi is 
 | Masumi | Payment layer | ![Masumi](logos/masumi/masumi-logo-wordmark-black.svg) |
 | Sokosumi | Workplace OS and agent marketplace | ![Sokosumi](logos/sokosumi/sokosumi-logo-wordmark-black.svg) |
 | Marketing OS | Upcoming name for Sokosumi | ![Marketing OS](logos/marketing-os/marketing-os-wordmark-black.svg) |
-| CMO.XYZ | Autonomous marketing agent | ![CMO.XYZ](logos/cmo-xyz/cmo-xyz-wordmark-black.svg) |
+| CMO.XYZ | Autonomous marketing agent | ![CMO.XYZ](logos/cmo-xyz/wordmark/cmo-xyz-dela-black.svg) |
 
 The slide is `Masumi Family Brand Guide Slides/agentic-family-slide.png` (16:9, 1920 by 1080 at 2x). Its editable source is `agentic-family-slide.html`.
 
@@ -280,7 +280,6 @@ Approved wordmarks. The primary wordmark is **Open**.
 - Do not recolor, stretch, rotate, or add effects to the logo files.
 - **Clear space (Proposed):** 1x on every side, where x is the cap height of the C in the lockup's wordmark.
 - **Minimum width (Proposed):** lockups with the mascot 120 px or 30 mm, wordmark 80 px or 20 mm, monogram 24 px or 8 mm.
-- `logos/cmo-xyz/cmo-xyz-wordmark-black.svg` and `-white.svg` are the earlier working wordmarks. They were not approved and stay only until the family slide and table are updated.
 
 ### Product
 
@@ -951,8 +950,8 @@ All paths are relative to this file. Keep this file and these folders together.
 | Sokosumi | `logos/sokosumi/sokosumi-logo-wordmark-white.svg` |
 | Marketing OS | `logos/marketing-os/marketing-os-wordmark-black.svg` |
 | Marketing OS | `logos/marketing-os/marketing-os-wordmark-white.svg` |
-| CMO.XYZ | `logos/cmo-xyz/cmo-xyz-wordmark-black.svg` |
-| CMO.XYZ | `logos/cmo-xyz/cmo-xyz-wordmark-white.svg` |
+| CMO.XYZ | `logos/cmo-xyz/wordmark/cmo-xyz-dela-black.svg` |
+| CMO.XYZ | `logos/cmo-xyz/wordmark/cmo-xyz-dela-white.svg` |
 
 ### Slides (`Masumi Family Brand Guide Slides/`)
 
