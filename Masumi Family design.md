@@ -27,7 +27,7 @@ This is the single source of truth for brand and UI/UX across **Masumi**, **Soko
 - **Sokosumi** is the workplace OS and agent marketplace.
 - **CMO.XYZ** is an autonomous marketing agent that runs on top of Sokosumi and Masumi.
 
-All three share one palette, one graphic language, and one set of UI/UX rules (Section 5), built on shadcn/ui, Tailwind, and Radix. All three use the Masumi typeface, Inter, and the Masumi color palette, with Iris Flower as the primary. CMO.XYZ is the only brand with a mascot and a named agent persona.
+Masumi and Sokosumi share one brand system: one palette, one graphic language, and Inter. CMO.XYZ is getting its own branding and logos, so it has its own section (Section 3). For now all three share the Masumi color palette, with Iris Flower as the primary, and one set of UI/UX rules (Section 5), built on shadcn/ui, Tailwind, and Radix. CMO.XYZ's fonts will change (Open). CMO.XYZ is the only brand with a mascot and a named agent persona.
 
 ### The Agentic family
 
@@ -47,6 +47,7 @@ The slide is `Masumi Family Brand Guide Slides/agentic-family-slide.png` (16:9, 
 ### Telling the brands apart
 
 With one shared palette, color does not separate the brands. These do:
+- **Brand identity:** Masumi and Sokosumi share one. CMO.XYZ has its own branding and logos (Section 3).
 - **Wordmark:** each brand has its own logo.
 - **Mascot and agent persona:** Cuso belongs to CMO.XYZ only.
 - **Density and surface:** Sokosumi is a dense, neutral-heavy team workspace. CMO.XYZ is lighter and more open.
@@ -66,9 +67,10 @@ With one shared palette, color does not separate the brands. These do:
 |---|---|---|---|
 | Positioning | Locked | Locked | Locked |
 | Voice and tone | TBD (Section 6.5) | TBD (Section 6.5) | Locked |
-| Typeface | Locked (Inter) | Locked (Inter) | Locked (Inter) |
+| Typeface | Locked (Inter) | Locked (Inter) | Open (will change, Inter until set) |
 | Color palette | Locked (shared) | Locked (shared) | Locked (shared) |
-| Logo | Locked | Locked | Working (current wordmark) |
+| Brand identity | Shared | Shared | Separate, in progress |
+| Logo | Locked | Locked | Open (own logos in progress, current wordmark is Working) |
 | Graphic language | None set (gradients, mockups) | None set (gradients, mockups) | None set (gradients, mockups) |
 | Mascot and avatars | Not applicable | Not applicable | Working |
 | Dark mode | Locked, values open | Locked, values open | Locked, values open |
@@ -146,14 +148,12 @@ All files are in the `logos/` folder next to this file, one subfolder per brand.
 | Sokosumi | `logos/sokosumi/sokosumi-logo-wordmark-white.svg` | Wordmark, white |
 | Marketing OS | `logos/marketing-os/marketing-os-wordmark-black.svg` | Wordmark, black |
 | Marketing OS | `logos/marketing-os/marketing-os-wordmark-white.svg` | Wordmark, white |
-| CMO.XYZ | `logos/cmo-xyz/cmo-xyz-wordmark-black.svg` | Wordmark, black |
-| CMO.XYZ | `logos/cmo-xyz/cmo-xyz-wordmark-white.svg` | Wordmark, white |
 
 - **Symbol color.** The symbol file uses red `#FF003D`. This red is a logo color, not a palette color. The palette primary is Iris Flower `#FF51FF`.
 - **Proportions.** The wordmark is about 6.5 to 1 (width to height).
 - **Do not** recolor, outline, stretch, rotate, or add effects to any logo file.
 - Marketing OS is the upcoming name for Sokosumi. Both sets are included until the rename goes live.
-- CMO.XYZ files are in `logos/cmo-xyz/`.
+- CMO.XYZ has its own branding and logos. Its files are listed in Section 3, Logo.
 
 ### Color (shared by all three brands)
 
@@ -233,6 +233,29 @@ CMO.XYZ is an AI agent that automates a business's marketing, end to end, in one
 
 The brand feels plain, direct, and grounded in data. Confidence comes from doing the analysis, not from sounding clever. Light banter is fine. Never stiff and corporate, never crude.
 
+### Brand identity
+
+CMO.XYZ is separate from the Masumi family. It is getting its own branding and logos, so this section is its own source of truth.
+
+- **Own branding and logos: in progress.** Nothing here is final until they are delivered.
+- **Palette:** stays the shared Masumi palette for now, with Iris Flower as the primary (Section 1, Color).
+- **Typeface:** will change. The new typeface is **Open**. Inter is the working default until it is set.
+- **Shared with the family:** the UI/UX rules (Section 5).
+- **Not inherited:** the Masumi logo rules (clearspace, spacing, partnerships in Section 1) do not apply to CMO.XYZ until its own logo rules are written.
+
+### Logo (Open)
+
+The current wordmark is a working version. The new CMO.XYZ logos will replace it.
+
+| File | Use |
+|---|---|
+| `logos/cmo-xyz/cmo-xyz-wordmark-black.svg` | Wordmark, black (working) |
+| `logos/cmo-xyz/cmo-xyz-wordmark-white.svg` | Wordmark, white (working) |
+
+- Black is for light backgrounds. White is for dark and colored backgrounds.
+- Do not recolor, outline, stretch, rotate, or add effects to the logo files.
+- Clearspace, minimum size, spacing, and whether the mascot sits next to the wordmark are **Open**.
+
 ### Product
 
 A user registers, gives their domain, and the agent builds and runs the marketing strategy.
@@ -285,9 +308,10 @@ Example responses from the current live build:
 |---|---|
 | Product and positioning | Locked |
 | Voice and tone | Locked |
-| Typeface | Locked (Inter, shared) |
-| Colors | Locked (shared Masumi palette) |
-| Logo | Open |
+| Brand identity | Separate from the Masumi family, in progress |
+| Typeface | Open (will change, Inter until set) |
+| Colors | Locked (shared Masumi palette for now) |
+| Logo | Open (own logos in progress) |
 | Agent avatars | Working |
 | Graphic language | Follows Section 4 |
 | Layout, elevation, components | Locked (shadcn/ui) |
@@ -299,18 +323,17 @@ Application specs for the website, the app, and the print flier are TBD (Section
 
 ### Typography
 
-CMO.XYZ uses the Masumi typeface, Inter, like Masumi and Sokosumi. PP Mori is no longer used. The typeface, weights, typescale, alignment, and don'ts are in Section 5.3.
+CMO.XYZ's fonts will change. The new typeface is **Open**. Until it is set, CMO.XYZ uses Inter as a working default, and Section 5.3 applies. PP Mori is no longer used.
 
 ### Color
 
-CMO.XYZ uses the shared Masumi palette (Section 1, Color) with Iris Flower as the primary. The earlier exploration colors (coral, amber, cyan, blue, ink, and paper) are retired.
+CMO.XYZ uses the shared Masumi palette (Section 1, Color) with Iris Flower as the primary. The palette stays the same for now. The earlier exploration colors (coral, amber, cyan, blue, ink, and paper) are retired.
 
 - Green is not a brand color. It is allowed for success states only (Section 5.2).
 - CMO.XYZ leans on light surfaces and the lighter palette tints, so it feels open and friendly.
 
-### Logo and mascot (Open)
+### Mascot and avatars (Working)
 
-- **Logo.** The CMO.XYZ wordmark is in `logos/cmo-xyz/`. Whether the mascot sits next to it is **Open**.
 - **Mascot (working concept).** A cursor shaped character: glossy white body, thick black outline, two black oval eyes, white sneakers, black limbs, soft studio 3D render. Cuso is the mascot and the default agent name.
 - **Reproducibility.** There is no illustrator on the project, so the mascot is generated from a fixed prompt. Keep this base line identical every time and change only pose and background:
 
@@ -531,7 +554,7 @@ The typographic system uses a very limited set of weights and styles. It should 
 
 **Typeface**
 
-- All brands use Inter. Web fallback: system-ui, -apple-system, Segoe UI, sans-serif.
+- Masumi and Sokosumi use Inter. CMO.XYZ uses Inter as a working default until its own typeface is set (Open). Web fallback: system-ui, -apple-system, Segoe UI, sans-serif.
 
 ![Typeface: Inter](Masumi%20Family%20Brand%20Guide%20Slides/typography-slide-02-typeface.png)
 
@@ -851,6 +874,7 @@ Work that is underway and not final. Do not treat any of it as locked. When an i
 | Cuso background | The render and avatars have a solid light gray background. A transparent version is needed so the brand gradients can show behind Cuso. Background rules for CMO.XYZ follow | CMO.XYZ | Pending |
 | Cuso PFP images | The 20 pictures will be reduced to a final set. The direction is confirmed | CMO.XYZ | Pending |
 | Cuso 3D model | The texture and material files are missing, so the model opens untextured | CMO.XYZ | Pending |
+| CMO.XYZ branding and logos | Own branding and logos in progress, separate from the Masumi family. New fonts to follow. Palette stays the same for now (Section 3) | CMO.XYZ | Working |
 | Voice and tone | Masumi and Sokosumi voice is still to write (Section 6.5) | Masumi, Sokosumi | TBD |
 
 ---
@@ -876,6 +900,9 @@ Work that is underway and not final. Do not treat any of it as locked. When an i
 | 15 | Data visualization rules | Section 6.6 | Open |
 | 16 | Asset location and named owner | Governance | Open |
 | 17 | Wordmarks for Masumi Standard and Masumi Agent Wallet, if needed (Sokosumi and Marketing OS wordmarks are done) | All brands | Open |
+| 18 | CMO.XYZ own branding and logos, separate from the Masumi family | Section 3 | Pending |
+| 19 | CMO.XYZ typeface. Fonts will change from Inter | Section 3, Section 5.3 | Open |
+| 20 | CMO.XYZ logo rules: clearspace, minimum size, spacing, and whether the mascot sits next to the wordmark | Section 3 | Open |
 
 ---
 
