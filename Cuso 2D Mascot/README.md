@@ -4,7 +4,7 @@ The approved 2D Cuso character for CMO.XYZ. Every file comes as an SVG and a tra
 
 ## Folders
 
-- `poses/<pose>/svg/` and `poses/<pose>/png/`: walking, pointing, friendly, thinking, researching, idea, done
+- `poses/<pose>/svg/` and `poses/<pose>/png/`: walking, pointing, friendly, thinking, researching, idea, done, watching, angry, confused, correct
 - `expressions/<expression>/svg/` and `expressions/<expression>/png/`: default, cool, nervous, angry, sad, in-love
 
 ## Variations
