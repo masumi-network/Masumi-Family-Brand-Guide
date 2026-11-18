@@ -7,3 +7,4 @@ Brand and UI/UX source of truth for Masumi, Sokosumi (Marketing OS) and CMO.XYZ.
 - `Masumi Family Brand Guide Slides/`: all brand slides as images: Agentic family, logo clearspace, spacing, partnerships, color palette and typography.
 - `Cuso 3D Mascot/`: Cuso avatars, render and 3D model for CMO.XYZ.
 - `sources/`: editable HTML sources for the slides.
+- `sources/cmo-xyz-brand-guide.html`: the visual CMO.XYZ brand guide. Open it in a browser.

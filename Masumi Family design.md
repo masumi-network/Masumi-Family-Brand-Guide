@@ -27,7 +27,7 @@ This is the single source of truth for brand and UI/UX across **Masumi**, **Soko
 - **Sokosumi** is the workplace OS and agent marketplace.
 - **CMO.XYZ** is an autonomous marketing agent that runs on top of Sokosumi and Masumi.
 
-Masumi and Sokosumi share one brand system: one palette, one graphic language, and Inter. CMO.XYZ is getting its own branding and logos, so it has its own section (Section 3). For now all three share the Masumi color palette, with Iris Flower as the primary, and one set of UI/UX rules (Section 5), built on shadcn/ui, Tailwind, and Radix. CMO.XYZ's fonts will change (Open). CMO.XYZ is the only brand with a mascot and a named agent persona.
+Masumi and Sokosumi share one brand system: one palette, one graphic language, and Inter. CMO.XYZ is getting its own branding and logos, so it has its own section (Section 3). For now all three share the Masumi color palette, with Iris Flower as the primary, and one set of UI/UX rules (Section 5), built on shadcn/ui, Tailwind, and Radix. CMO.XYZ uses Dela Gothic One and PP Mori (Section 3). CMO.XYZ is the only brand with a mascot and a named agent persona.
 
 ### The Agentic family
 
@@ -67,10 +67,10 @@ With one shared palette, color does not separate the brands. These do:
 |---|---|---|---|
 | Positioning | Locked | Locked | Locked |
 | Voice and tone | TBD (Section 6.5) | TBD (Section 6.5) | Locked |
-| Typeface | Locked (Inter) | Locked (Inter) | Open (will change, Inter until set) |
-| Color palette | Locked (shared) | Locked (shared) | Locked (shared) |
+| Typeface | Locked (Inter) | Locked (Inter) | Locked (Dela Gothic One, PP Mori) |
+| Color palette | Locked (shared) | Locked (shared) | Locked (white, black, Iris Flower) |
 | Brand identity | Shared | Shared | Separate, in progress |
-| Logo | Locked | Locked | Open (own logos in progress, current wordmark is Working) |
+| Logo | Locked | Locked | Locked (primary lockup approved, primary wordmark Open) |
 | Graphic language | None set (gradients, mockups) | None set (gradients, mockups) | None set (gradients, mockups) |
 | Mascot and avatars | Not applicable | Not applicable | Working |
 | Dark mode | Locked, values open | Locked, values open | Locked, values open |
@@ -237,24 +237,50 @@ The brand feels plain, direct, and grounded in data. Confidence comes from doing
 
 CMO.XYZ is separate from the Masumi family. It is getting its own branding and logos, so this section is its own source of truth.
 
-- **Own branding and logos: in progress.** Nothing here is final until they are delivered.
-- **Palette:** stays the shared Masumi palette for now, with Iris Flower as the primary (Section 1, Color).
-- **Typeface:** will change. The new typeface is **Open**. Inter is the working default until it is set.
+- **Visual guide:** `sources/cmo-xyz-brand-guide.html` shows the approved logos, colour, type, mascot and usage rules.
+- **Personality:** playful, smart, friendly.
+- **Palette:** white, black and Iris Flower `#FF51FF`, in a white-led 60 / 30 / 10 balance.
+- **Typefaces:** Dela Gothic One for headlines, PP Mori for body text.
 - **Shared with the family:** the UI/UX rules (Section 5).
 - **Not inherited:** the Masumi logo rules (clearspace, spacing, partnerships in Section 1) do not apply to CMO.XYZ until its own logo rules are written.
 
-### Logo (Open)
+### Logo (Locked)
 
-The current wordmark is a working version. The new CMO.XYZ logos will replace it.
+**Primary logo:** `logos/cmo-xyz/lockups/cmo-xyz-lockup-mascot-top-outline-black.svg`, on white.
 
-| File | Use |
+<img src="logos/cmo-xyz/lockups/cmo-xyz-lockup-mascot-top-outline-black.svg" width="320" alt="CMO.XYZ primary logo">
+
+Approved lockups, each on the listed backgrounds only:
+
+| File | Approved backgrounds |
 |---|---|
-| `logos/cmo-xyz/cmo-xyz-wordmark-black.svg` | Wordmark, black (working) |
-| `logos/cmo-xyz/cmo-xyz-wordmark-white.svg` | Wordmark, white (working) |
+| `logos/cmo-xyz/lockups/cmo-xyz-lockup-monogram-black.svg` | Iris, white |
+| `logos/cmo-xyz/lockups/cmo-xyz-lockup-monogram-iris.svg` | white, black |
+| `logos/cmo-xyz/lockups/cmo-xyz-lockup-stacked-text-black.svg` | Iris, white |
+| `logos/cmo-xyz/lockups/cmo-xyz-lockup-stacked-text-white.svg` | black |
+| `logos/cmo-xyz/lockups/cmo-xyz-lockup-mascot-top-black.svg` | Iris, white |
+| `logos/cmo-xyz/lockups/cmo-xyz-lockup-mascot-top-white.svg` | black |
+| `logos/cmo-xyz/lockups/cmo-xyz-lockup-stacked-text-outline-black.svg` | Iris, white |
+| `logos/cmo-xyz/lockups/cmo-xyz-lockup-mascot-top-outline-black.svg` | Iris, white |
+| `logos/cmo-xyz/lockups/cmo-xyz-lockup-framed-black.svg` | white |
+| `logos/cmo-xyz/lockups/cmo-xyz-lockup-framed-white.svg` | black |
+| `logos/cmo-xyz/lockups/cmo-xyz-lockup-framed-clear-black.svg` | Iris |
+| `logos/cmo-xyz/lockups/cmo-xyz-lockup-block-black.svg` | white |
+| `logos/cmo-xyz/lockups/cmo-xyz-lockup-block-white.svg` | black |
 
-- Black is for light backgrounds. White is for dark and colored backgrounds.
-- Do not recolor, outline, stretch, rotate, or add effects to the logo files.
-- Clearspace, minimum size, spacing, and whether the mascot sits next to the wordmark are **Open**.
+Approved wordmarks. The primary wordmark is **Open**.
+
+| File | Approved background |
+|---|---|
+| `logos/cmo-xyz/wordmark/cmo-xyz-dela-black.svg` | white |
+| `logos/cmo-xyz/wordmark/cmo-xyz-dela-white.svg` | black |
+| `logos/cmo-xyz/wordmark/cmo-xyz-dela-iris.svg` | black |
+| `logos/cmo-xyz/wordmark/cmo-xyz-dela-sticker.svg` | Iris |
+
+- Do not recolor, stretch, rotate, or add effects to the logo files.
+- **Clear space (Proposed):** 1x on every side, where x is the cap height of the C in the lockup's wordmark.
+- **Minimum width (Proposed):** lockups with the mascot 120 px or 30 mm, wordmark 80 px or 20 mm, monogram 24 px or 8 mm.
+- `logos/cmo-xyz/cmo-xyz-wordmark-black.svg` and `-white.svg` are the earlier working wordmarks. They were not approved and stay only until the family slide and table are updated.
 
 ### Product
 
@@ -309,9 +335,9 @@ Example responses from the current live build:
 | Product and positioning | Locked |
 | Voice and tone | Locked |
 | Brand identity | Separate from the Masumi family, in progress |
-| Typeface | Open (will change, Inter until set) |
-| Colors | Locked (shared Masumi palette for now) |
-| Logo | Open (own logos in progress) |
+| Typeface | Locked (Dela Gothic One, PP Mori) |
+| Colors | Locked (white, black, Iris Flower) |
+| Logo | Locked (primary wordmark Open, clear space and minimum size Proposed) |
 | Agent avatars | Working |
 | Graphic language | Follows Section 4 |
 | Layout, elevation, components | Locked (shadcn/ui) |
@@ -323,16 +349,20 @@ Application specs for the website, the app, and the print flier are TBD (Section
 
 ### Typography
 
-CMO.XYZ's fonts will change. The new typeface is **Open**. Until it is set, CMO.XYZ uses Inter as a working default, and Section 5.3 applies. PP Mori is no longer used.
+Headlines use Dela Gothic One. Body text uses PP Mori. Use sentence case. PP Mori is a licensed font, so its files are not stored in this repo.
 
 ### Color
 
-CMO.XYZ uses the shared Masumi palette (Section 1, Color) with Iris Flower as the primary. The palette stays the same for now. The earlier exploration colors (coral, amber, cyan, blue, ink, and paper) are retired.
+CMO.XYZ brand work uses white `#FFFFFF`, black `#000000` and Iris Flower `#FF51FF`, balanced 60 / 30 / 10. Text on Iris Flower is black. The earlier exploration colors (coral, amber, cyan, blue, ink, and paper) are retired.
 
 - Green is not a brand color. It is allowed for success states only (Section 5.2).
-- CMO.XYZ leans on light surfaces and the lighter palette tints, so it feels open and friendly.
+- CMO.XYZ leans on white surfaces, so it feels open and friendly.
 
-### Mascot and avatars (Working)
+### Mascot and avatars
+
+**Approved 2D mascot (Locked).** Vector files are in `logos/cmo-xyz/mascot/`: 7 poses and 6 head expressions. Use approved poses and expressions only. No gloves. Never stretch or recolor the mascot.
+
+**3D mascot and avatars (Working).** The material below predates the approved 2D mascot. Whether it stays is **Open**.
 
 - **Mascot (working concept).** A cursor shaped character: glossy white body, thick black outline, two black oval eyes, white sneakers, black limbs, soft studio 3D render. Cuso is the mascot and the default agent name.
 - **Reproducibility.** There is no illustrator on the project, so the mascot is generated from a fixed prompt. Keep this base line identical every time and change only pose and background:
@@ -385,7 +415,7 @@ CMO.XYZ has no set graphic language. It follows Section 4: gradients and UI or p
 - Do ask for missing information, framed as getting "better aligned". Don't hedge with "I'm not sure" or "I think".
 - Do support whatever agent name the user picks on every screen. Don't hardcode one agent name for everyone.
 - Do keep copy plain and short. Don't write long, rambling sentences or lean on em dashes and hyphens.
-- Do use a neutral system default for placeholder colors, logo, and avatars, and flag it as temporary. Don't treat current demo colors as final.
+- Do use the approved logo files and the white, black and Iris Flower palette. Don't treat current demo colors as final.
 - Don't build the newsletter. It is roadmap.
 
 ---
