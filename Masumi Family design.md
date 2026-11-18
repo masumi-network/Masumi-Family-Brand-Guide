@@ -72,7 +72,7 @@ With one shared palette, color does not separate the brands. These do:
 | Brand identity | Shared | Shared | Separate, in progress |
 | Logo | Locked | Locked | Locked (primary lockup approved, primary wordmark Open) |
 | Graphic language | None set (gradients, mockups) | None set (gradients, mockups) | None set (gradients, mockups) |
-| Mascot and avatars | Not applicable | Not applicable | Working |
+| Mascot and avatars | Not applicable | Not applicable | Locked (2D mascot), avatars Open |
 | Dark mode | Locked, values open | Locked, values open | Locked, values open |
 | Imagery, motion, templates, co-branding | TBD | TBD | TBD |
 | UI/UX rules | Locked (shadcn/ui) | Locked (shadcn/ui) | Locked (shadcn/ui) |
@@ -338,7 +338,7 @@ Example responses from the current live build:
 | Typeface | Locked (Dela Gothic One, PP Mori) |
 | Colors | Locked (white, black, Iris Flower) |
 | Logo | Locked (primary wordmark Open, clear space and minimum size Proposed) |
-| Agent avatars | Working |
+| Agent avatars | Open |
 | Graphic language | Follows Section 4 |
 | Layout, elevation, components | Locked (shadcn/ui) |
 | Shapes | Standard radius scale, brand tuning waits on visual identity |
@@ -362,48 +362,7 @@ CMO.XYZ brand work uses white `#FFFFFF`, black `#000000` and Iris Flower `#FF51F
 
 **Approved 2D mascot (Locked).** SVGs and transparent PNGs are in `Cuso 2D Mascot/`: 11 poses and 6 head expressions, each with its variations. Use approved poses and expressions only. No gloves. Never stretch or recolor the mascot.
 
-**3D mascot and avatars (Working).** The material below predates the approved 2D mascot. Whether it stays is **Open**.
-
-- **Mascot (working concept).** A cursor shaped character: glossy white body, thick black outline, two black oval eyes, white sneakers, black limbs, soft studio 3D render. Cuso is the mascot and the default agent name.
-- **Reproducibility.** There is no illustrator on the project, so the mascot is generated from a fixed prompt. Keep this base line identical every time and change only pose and background:
-
-> "A charming 3D-rendered mascot character shaped like a cursor/pointer arrow, glossy white body with a thick black outline, two simple black oval eyes, small white sneakers, articulated black limbs. Soft studio lighting, centered composition, high quality 3D render."
-
-- **3D mascot files.** The folder `Cuso 3D Mascot/` holds the mascot assets:
-  - `render/cuso-pointing.png`: reference render, standing and pointing.
-  - `model/cuso-mascot.obj`: the 3D model (from Meshy). The texture and material file (`.mtl`) did not come with it, so it opens untextured until they are added (Open).
-  - `avatars/`: the 20 profile pictures below.
-
-<img src="Cuso 3D Mascot/render/cuso-pointing.png" width="240" alt="Cuso, standing and pointing">
-
-- **Poses.** Standing and pointing, sitting and thinking, mid stride, arms raised. Add more as needed.
-- **Backgrounds.** Working direction: flat or soft gradient studio backdrops from the shared palette. Never green. Full background rules are **Open**.
-- **Agent avatars (Working).** 20 profile pictures are in `Cuso 3D Mascot/avatars/`. Users can pick how their agent appears. They are working assets, not final. The set will be reduced. These are the direction the team likes for now.
-
-| # | Preview | File | Variant |
-|---|---|---|---|
-| 01 | <img src="Cuso 3D Mascot/avatars/cuso-profile-01-classic.png" width="56" alt="Classic (default)"> | `cuso-profile-01-classic.png` | Classic (default) |
-| 02 | <img src="Cuso 3D Mascot/avatars/cuso-profile-02-sunglasses.png" width="56" alt="Sunglasses"> | `cuso-profile-02-sunglasses.png` | Sunglasses |
-| 03 | <img src="Cuso 3D Mascot/avatars/cuso-profile-03-cap.png" width="56" alt="Cap"> | `cuso-profile-03-cap.png` | Cap |
-| 04 | <img src="Cuso 3D Mascot/avatars/cuso-profile-04-headphones.png" width="56" alt="Headphones"> | `cuso-profile-04-headphones.png` | Headphones |
-| 05 | <img src="Cuso 3D Mascot/avatars/cuso-profile-05-coffee.png" width="56" alt="Coffee"> | `cuso-profile-05-coffee.png` | Coffee |
-| 06 | <img src="Cuso 3D Mascot/avatars/cuso-profile-06-sparkle.png" width="56" alt="Sparkle"> | `cuso-profile-06-sparkle.png` | Sparkle |
-| 07 | <img src="Cuso 3D Mascot/avatars/cuso-profile-07-hello.png" width="56" alt="Hello"> | `cuso-profile-07-hello.png` | Hello |
-| 08 | <img src="Cuso 3D Mascot/avatars/cuso-profile-08-happy.png" width="56" alt="Happy"> | `cuso-profile-08-happy.png` | Happy |
-| 09 | <img src="Cuso 3D Mascot/avatars/cuso-profile-09-thinking.png" width="56" alt="Thinking"> | `cuso-profile-09-thinking.png` | Thinking |
-| 10 | <img src="Cuso 3D Mascot/avatars/cuso-profile-10-excited.png" width="56" alt="Excited"> | `cuso-profile-10-excited.png` | Excited |
-| 11 | <img src="Cuso 3D Mascot/avatars/cuso-profile-11-magnifier.png" width="56" alt="Magnifier"> | `cuso-profile-11-magnifier.png` | Magnifier |
-| 12 | <img src="Cuso 3D Mascot/avatars/cuso-profile-12-notebook.png" width="56" alt="Notebook"> | `cuso-profile-12-notebook.png` | Notebook |
-| 13 | <img src="Cuso 3D Mascot/avatars/cuso-profile-13-check.png" width="56" alt="Check"> | `cuso-profile-13-check.png` | Check |
-| 14 | <img src="Cuso 3D Mascot/avatars/cuso-profile-14-chart.png" width="56" alt="Chart"> | `cuso-profile-14-chart.png` | Chart |
-| 15 | <img src="Cuso 3D Mascot/avatars/cuso-profile-15-laptop.png" width="56" alt="Laptop"> | `cuso-profile-15-laptop.png` | Laptop |
-| 16 | <img src="Cuso 3D Mascot/avatars/cuso-profile-16-sleep.png" width="56" alt="Sleep"> | `cuso-profile-16-sleep.png` | Sleep |
-| 17 | <img src="Cuso 3D Mascot/avatars/cuso-profile-17-beanie.png" width="56" alt="Beanie"> | `cuso-profile-17-beanie.png` | Beanie |
-| 18 | <img src="Cuso 3D Mascot/avatars/cuso-profile-18-party.png" width="56" alt="Party"> | `cuso-profile-18-party.png` | Party |
-| 19 | <img src="Cuso 3D Mascot/avatars/cuso-profile-19-idea.png" width="56" alt="Idea"> | `cuso-profile-19-idea.png` | Idea |
-| 20 | <img src="Cuso 3D Mascot/avatars/cuso-profile-20-headset.png" width="56" alt="Headset"> | `cuso-profile-20-headset.png` | Headset |
-
-Suggested use (Proposed): expressions and props that match agent states (thinking while drafting, check when done, sleep when idle, chart for analytics) can double as status art. Confirm the pairing.
+**Agent avatars (Open).** The earlier 3D profile pictures have been removed. Whether to make a new set from the approved 2D mascot is still to decide.
 
 ### Graphic language
 
@@ -684,7 +643,6 @@ Apply these to every layout in every brand. Each row pairs the rule with the law
 | # | Rule | Law | In practice |
 |---|---|---|---|
 | 1 | Reduce choices per screen | Hick's law | One primary action per view. Hide secondary options in menus. |
-| 2 | Cuso PFP images: the amount will be reduced. The direction is confirmed and the images are in the Cuso 3D Mascot folder | CMO.XYZ | Pending |
 | 3 | Follow familiar patterns | Jakob's law | Use the conventions people know from other products. |
 | 4 | Group related information | Law of proximity | Related items sit close. Unrelated items get more space. |
 | 5 | Break content into chunks | Miller's law | Short groups and sections instead of long walls of fields or text. |
@@ -901,9 +859,6 @@ Work that is underway and not final. Do not treat any of it as locked. When an i
 | Social media templates | First draft in progress: a 4:5 feed post for the Cuso launch. Format sizes, grid, and logo placement still to set (Section 6.3). Not in this repo yet | All | Working |
 | Social post examples | One example per brand once the templates are set | All | TBD |
 | Other templates | Flier (print), slide decks, email signatures, email and newsletter layouts, website page layouts, event and booth materials (Section 6.3). Build order is Open | All | TBD |
-| Cuso background | The render and avatars have a solid light gray background. A transparent version is needed so the brand gradients can show behind Cuso. Background rules for CMO.XYZ follow | CMO.XYZ | Pending |
-| Cuso PFP images | The 20 pictures will be reduced to a final set. The direction is confirmed | CMO.XYZ | Pending |
-| Cuso 3D model | The texture and material files are missing, so the model opens untextured | CMO.XYZ | Pending |
 | CMO.XYZ branding and logos | Own branding and logos in progress, separate from the Masumi family. New fonts to follow. Palette stays the same for now (Section 3) | CMO.XYZ | Working |
 | Voice and tone | Masumi and Sokosumi voice is still to write (Section 6.5) | Masumi, Sokosumi | TBD |
 
@@ -914,7 +869,7 @@ Work that is underway and not final. Do not treat any of it as locked. When an i
 | # | Decision | Needed for | Status |
 |---|---|---|---|
 | 1 | Cuso background rules for CMO.XYZ | CMO.XYZ, mascot | Pending |
-| 2 | Cuso PFP images: the amount will be reduced. The direction is confirmed and the images are in the Cuso 3D Mascot folder | CMO.XYZ | Pending |
+| 2 | Cuso agent avatars: whether to make a new set from the approved 2D mascot | CMO.XYZ | Open |
 | 3 | Native mobile apps are planned. Confirm React Native Reusables as the UI library | Section 5.0 | Proposed |
 | 4 | Icon set | UI/UX rules | Pending |
 | 5 | How x is measured on every wordmark: Proposed as the height of the wordmark. Also the rule at exactly 30 px | Logo | Proposed |
@@ -972,13 +927,12 @@ All paths are relative to this file. Keep this file and these folders together.
 | Alignment, paragraphs | `Masumi Family Brand Guide Slides/typography-slide-06-alignment-paragraphs.png` | 5.3 |
 | Typography don'ts | `Masumi Family Brand Guide Slides/typography-slide-07-donts.png` | 5.3 |
 
-### Cuso 3D mascot (`Cuso 3D Mascot/`)
+### Cuso 2D mascot (`Cuso 2D Mascot/`)
 
 | Folder | Contents | Section |
 |---|---|---|
-| `Cuso 3D Mascot/render/` | `cuso-pointing.png`, reference render | 3 |
-| `Cuso 3D Mascot/model/` | `cuso-mascot.obj`, 3D model (texture and material files missing) | 3 |
-| `Cuso 3D Mascot/avatars/` | 20 profile pictures, `cuso-profile-01` to `cuso-profile-20` | 3 |
+| `Cuso 2D Mascot/poses/` | 11 poses, each with 4 variations, as SVG and transparent PNG | 3 |
+| `Cuso 2D Mascot/expressions/` | 6 head expressions, each with 2 variations, as SVG and transparent PNG | 3 |
 
 ### Editable sources (`sources/`)
 
