@@ -360,7 +360,7 @@ CMO.XYZ brand work uses white `#FFFFFF`, black `#000000` and Iris Flower `#FF51F
 
 ### Mascot and avatars
 
-**Approved 2D mascot (Locked).** Vector files are in `logos/cmo-xyz/mascot/`: 7 poses and 6 head expressions. Use approved poses and expressions only. No gloves. Never stretch or recolor the mascot.
+**Approved 2D mascot (Locked).** SVGs and transparent PNGs are in `Cuso 2D Mascot/`: 7 poses and 6 head expressions, each with its variations. Use approved poses and expressions only. No gloves. Never stretch or recolor the mascot.
 
 **3D mascot and avatars (Working).** The material below predates the approved 2D mascot. Whether it stays is **Open**.
 
