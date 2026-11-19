@@ -27,14 +27,15 @@ This is the single source of truth for brand across **Masumi**, **Sokosumi**, an
 - **Sokosumi** is the workplace OS and agent marketplace.
 - **CMO.XYZ** is an autonomous marketing agent that runs on top of Sokosumi and Masumi.
 
-Masumi and Sokosumi share one brand system: one palette, one graphic language, and Inter. CMO.XYZ has its own branding and logos, so it has its own section (Section 6). All three use Iris Flower as the primary color. Masumi and Sokosumi share one set of UI/UX rules (Section 4), built on shadcn/ui, Tailwind, and Radix. CMO.XYZ's UI will be different, so Section 4 does not apply to it. CMO.XYZ uses Dela Gothic One and PP Mori (Section 6). CMO.XYZ is the only brand with a mascot and a named agent persona.
+Masumi and Sokosumi share one brand system: one palette, one graphic language, and Inter. CMO.XYZ has its own branding and logos, so it has its own section (Section 3). All three use Iris Flower as the primary color. Masumi and Sokosumi share one set of UI/UX rules (Section 1.10), built on shadcn/ui, Tailwind, and Radix. CMO.XYZ's UI will be different, so Section 1.10 does not apply to it. CMO.XYZ uses Dela Gothic One and PP Mori (Section 3). CMO.XYZ is the only brand with a mascot and a named agent persona.
 
 ### How this file is organized
 
 - **Overview (this part):** all three brands.
-- **1. Masumi and 2. Sokosumi:** these two overlap, so they sit together. Sections 3 to 5 (graphic language, UI/UX rules, extended guidelines) follow and cover them.
-- **6. CMO.XYZ:** its own section, with its overview, brand identity, logo, mascot, and its own rules. CMO.XYZ's UI will be different from Masumi and Sokosumi.
-- **7. Governance, In process, Open decisions, Resources.**
+- **1. Masumi:** logo, color, typography, graphic language, UI/UX rules and extended guidelines. Sokosumi shares these.
+- **2. Sokosumi:** what is specific to Sokosumi. It follows the shared parts in Section 1.
+- **3. CMO.XYZ:** its own section, with its overview, brand identity, logo, mascot, and its own rules. CMO.XYZ's UI will be different from Masumi and Sokosumi.
+- **Governance, In process, Open decisions, Resources** come last.
 
 ### The Agentic family
 
@@ -54,7 +55,7 @@ The slide is `Masumi Family Brand Guide Slides/agentic-family-slide.png` (16:9, 
 ### Telling the brands apart
 
 With one shared palette, color does not separate the brands. These do:
-- **Brand identity:** Masumi and Sokosumi share one. CMO.XYZ has its own branding and logos (Section 6).
+- **Brand identity:** Masumi and Sokosumi share one. CMO.XYZ has its own branding and logos (Section 3).
 - **Wordmark:** each brand has its own logo.
 - **Mascot and agent persona:** Cuso belongs to CMO.XYZ only.
 - **Density and surface:** Sokosumi is a dense, neutral-heavy team workspace. CMO.XYZ is lighter and more open.
@@ -73,7 +74,7 @@ With one shared palette, color does not separate the brands. These do:
 | Area | Masumi | Sokosumi | CMO.XYZ |
 |---|---|---|---|
 | Positioning | Locked | Locked | Locked |
-| Voice and tone | TBD (Section 5.5) | TBD (Section 5.5) | Locked |
+| Voice and tone | TBD (Section 1.11.5) | TBD (Section 1.11.5) | Locked |
 | Typeface | Locked (Inter) | Locked (Inter) | Locked (Dela Gothic One, PP Mori) |
 | Color palette | Locked (shared) | Locked (shared) | Locked (white, black, Iris Flower) |
 | Brand identity | Shared | Shared | Separate, in progress |
@@ -94,11 +95,11 @@ With one shared palette, color does not separate the brands. These do:
 
 ## 1. Masumi
 
-### Role and personality
+### 1.1 Role and personality
 
 Masumi is the payment layer. It is the foundation the other products stand on, so it should feel precise, calm, and trustworthy, with warmth from its color.
 
-### Logo
+### 1.2 Logo
 
 - **Wordmark.** Each brand has a wordmark. The symbol is a separate mark for small spaces.
 - **Minimum size.** Wordmark: 14px tall on screen. The print minimum is **Open**.
@@ -109,7 +110,7 @@ Masumi is the payment layer. It is the foundation the other products stand on, s
 - **Placement.** Nine placements are allowed inside a defined space: center, top, or bottom on each axis.
 - **Partnerships.** Use horizontal or vertical arrangements with the wordmark only. Size partner logos optically. Do not match their height or width to ours. See Logo spacing and Logo partnerships below.
 
-### Logo clearspace
+### 1.3 Logo clearspace
 
 Nothing enters the clear space around the wordmark: no text, no other logos, no page edge. The rule is shown on the Masumi wordmark. How x is measured on the Sokosumi, Marketing OS and CMO.XYZ wordmarks is **Open**.
 
@@ -124,7 +125,7 @@ Nothing enters the clear space around the wordmark: no text, no other logos, no 
 
 The slides are in `Masumi Family Brand Guide Slides/`. Their editable source is `sources/logo-clearspace-slide.html`. Open it with `#1` or `#2` at the end of the address for the 1x or 2x version.
 
-### Logo spacing
+### 1.4 Logo spacing
 
 When two logos sit side by side or stacked, keep 2x of space between them. x is the width of the "s" in the wordmark. The space is the same in a horizontal and a vertical arrangement. **Proposed:** the 2x value is measured from the spacing in the original partnerships slide. Confirm it.
 
@@ -132,7 +133,7 @@ When two logos sit side by side or stacked, keep 2x of space between them. x is 
 
 The editable source is `logo-spacing-slide.html`.
 
-### Logo partnerships
+### 1.5 Logo partnerships
 
 When the Masumi logo sits next to a partner logo, size the partner logo optically so it carries the same visual weight as ours. Do not match height or width. Use a horizontal or vertical arrangement with the wordmark only.
 
@@ -142,7 +143,7 @@ When the Masumi logo sits next to a partner logo, size the partner logo opticall
 - **Incorrect (x).** The partner logo is too small, or it is enlarged to match the width of the wordmark.
 - The example partner logo is NMKR, taken from the original Agentic brand guidelines. The partner logo file is not included for now. The editable source is `sources/logo-partnerships-slide.html`.
 
-### Logo files
+### 1.6 Logo files
 
 All files are in the `logos/` folder next to this file, one subfolder per brand. Black versions are for light backgrounds. White versions are for dark and colored backgrounds.
 
@@ -160,13 +161,13 @@ All files are in the `logos/` folder next to this file, one subfolder per brand.
 - **Proportions.** The wordmark is about 6.5 to 1 (width to height).
 - **Do not** recolor, outline, stretch, rotate, or add effects to any logo file.
 - Marketing OS is the upcoming name for Sokosumi. Both sets are included until the rename goes live.
-- CMO.XYZ has its own branding and logos. Its files are listed in Section 6, Logo.
+- CMO.XYZ has its own branding and logos. Its files are listed in Section 3, Logo.
 
-### Color (shared by all three brands)
+### 1.7 Color (Masumi and Sokosumi)
 
 ![Masumi family color palette](Masumi%20Family%20Brand%20Guide%20Slides/color-palette-slide.png)
 
-The Masumi palette is the palette for Masumi, Sokosumi, and CMO.XYZ. It runs from pink through red and yellow, with softer tones taken from traditional Japanese colors. The primary is Iris Flower. Every other palette color is secondary.
+The Masumi palette is the palette for Masumi and Sokosumi. CMO.XYZ takes Iris Flower from it (Section 3, Color). It runs from pink through red and yellow, with softer tones taken from traditional Japanese colors. The primary is Iris Flower. Every other palette color is secondary.
 
 | Name | Hex | Role |
 |---|---|---|
@@ -180,76 +181,30 @@ The Masumi palette is the palette for Masumi, Sokosumi, and CMO.XYZ. It runs fro
 | Golden Yellow | #FFD300 | Secondary, also the warning color |
 | Peach Blossom | #FFC8F0 | Secondary |
 
-Colors are listed dark to light. Use the shared neutrals (Section 4.2) for everything else. Do not use the palette for status colors, except Golden Yellow as the warning color (Section 4.2).
+Colors are listed dark to light. Use the shared neutrals (Section 1.10.2) for everything else. Do not use the palette for status colors, except Golden Yellow as the warning color (Section 1.10.2).
 
-### Typography
+### 1.8 Typography
 
-Inter. The typeface, weights, typescale, alignment, and don'ts are in Section 4.3.
+Inter. The typeface, weights, typescale, alignment, and don'ts are in Section 1.10.3.
 
-### Graphic language
-
-See Section 3. Gradients use Masumi's palette.
-
-### Do and don't
-
-- Do keep the logo black or white on color.
-- Do use gradients and UI mockups for visuals.
-- Don't set the wordmark in all caps.
-
----
-
-## 2. Sokosumi
-
-### Role and personality
-
-Sokosumi is the workplace OS and agent marketplace. It is where people manage agents and tasks and discover specialized agents. It should feel capable and calm, and stay out of the way of the work.
-
-### Logo
-
-Same rules as Masumi (Section 1, Logo).
-
-### Color
-
-Sokosumi uses the shared Masumi palette (Section 1, Color) with Iris Flower as the primary. Everything else comes from the shared neutrals (Section 4.2). Sokosumi's earlier purple and blue are retired.
-
-### Color use
-
-Sokosumi uses the Masumi colors for everything, including gradients. It has no separate brand palette. User-chosen theme colors, offered in the original guide, are not part of this version.
-
-### Typography
-
-Inter. The typeface, weights, typescale, alignment, and don'ts are in Section 4.3.
-
-### Graphic language
-
-See Section 3. Gradients use the shared Masumi palette.
-
-### Do and don't
-
-- Do use the shared UI/UX rules (Section 4) for every screen.
-- Do reuse the task board look (cards, status colors) as the reference for other modules.
-- Don't use CMO.XYZ's mascot inside Sokosumi surfaces.
-
----
-
-## 3. Graphic language and imagery
+### 1.9 Graphic language and imagery
 
 Applies to all three brands.
 
 **Status:** Working. This section is intentionally bare bones. Rules are added as we go.
 
-### Confirmed
-- **Gradients.** The only decorative graphic element. Built from the shared Masumi palette. All three brands share the palette for gradients (Section 3, Gradient rules).
+#### Confirmed
+- **Gradients.** The only decorative graphic element. Built from the shared Masumi palette. Masumi and Sokosumi share the palette for gradients (Section 1.9, Gradient rules).
 - **UI and product mockups.** All product shots and explanations of the product are mockups of the real UI.
-- **The CMO.XYZ mascot and avatars,** for CMO.XYZ only (Section 6).
+- **The CMO.XYZ mascot and avatars,** for CMO.XYZ only (Section 3).
 
-### AI generated content
+#### AI generated content
 - AI generation is used widely. It is decided case by case.
 - Label AI generated content where the country or platform requires it. Check the rules for the market before publishing.
 - Keep the tool and the prompt for each generated asset.
 - Who approves a use, and which markets require labels, is **Open**.
 
-### Not decided yet
+#### Not decided yet
 - Photography and stock images
 - Decorative grids
 - Blur and glow effects
@@ -258,24 +213,22 @@ Applies to all three brands.
 
 Until these are decided, check with brand and marketing before using any of them. They are tracked in Open decisions.
 
-### Gradient rules (TBD)
+#### Gradient rules (TBD)
 - Pairs: all brands draw gradient stops from the shared palette. Starting idea to confirm: Iris Flower to Vivid Sakura, Iris Flower to Crimson Purple, and Peach Blossom to Iris Flower.
 - Allowed stops, angles, and direction: to define.
-- Contrast: text on a gradient must still pass the targets in Section 4.11.
+- Contrast: text on a gradient must still pass the targets in Section 1.10.11.
 - Placement: backgrounds and hero areas. Never behind dense UI.
 
-### Mockup rules (TBD)
+#### Mockup rules (TBD)
 - Device frames, screen states, and example data: to define.
 - Mockups show real product screens in light and dark themes.
 - Use realistic, on-voice example content. No lorem ipsum.
 
----
+### 1.10 UI/UX rules (Masumi and Sokosumi)
 
-## 4. UI/UX rules (Masumi and Sokosumi)
+Every Masumi and Sokosumi product and surface follows these rules. CMO.XYZ's UI will be different and is not covered here (Section 3). **shadcn/ui, with Kibo UI as an approved extension, is locked as the UI/UX standard.** Brand values come from the shared tokens.
 
-Every Masumi and Sokosumi product and surface follows these rules. CMO.XYZ's UI will be different and is not covered here (Section 6). **shadcn/ui, with Kibo UI as an approved extension, is locked as the UI/UX standard.** Brand values come from the shared tokens.
-
-### 4.0 Implementation standard: shadcn/ui
+#### 1.10.0 Implementation standard: shadcn/ui
 
 **Status: Locked.** All web products use shadcn/ui as the component system. Material Design 3 is not used.
 
@@ -293,7 +246,7 @@ Every Masumi and Sokosumi product and surface follows these rules. CMO.XYZ's UI 
 
 **Reference:** [shadcn/ui documentation](https://ui.shadcn.com/)
 
-### 🧩 Advanced SaaS Components: Kibo UI
+#### 🧩 Advanced SaaS Components: Kibo UI
 We use **Kibo UI** as a supplementary component registry to bridge the gap between shadcn's core primitives and complex SaaS feature requirements. 
 * **When to use:** Use Kibo UI when a feature demands specialized, high-tier interface elements missing from the standard shadcn catalog (e.g., advanced multi-step forms, multi-select components, interactive cards/decks, and compare sliders).
 * **Architecture:** Because Kibo UI is built on the exact same foundation (Tailwind CSS + Radix UI), its components integrate natively with our existing `components.json` layout, automatically inheriting our global styling tokens and theme variables.
@@ -307,7 +260,7 @@ Kibo UI components follow the same brand tokens, dark mode, and accessibility ru
 
 shadcn/ui, Radix, and Tailwind are web only, so they do not cover native iOS and Android apps. Native mobile apps are planned. **Proposed:** use React Native Reusables, a shadcn style library, so the tokens carry over.
 
-### 4.1 Principles
+#### 1.10.1 Principles
 
 1. **Show the data.** Anything the agent says is backed by data the user can see on screen.
 2. **Fast to the first result.** Get people to a useful result in as few steps as possible.
@@ -316,7 +269,7 @@ shadcn/ui, Radix, and Tailwind are web only, so they do not cover native iOS and
 5. **Calm by default.** Neutral surfaces, one primary color per screen, gradients used sparingly.
 6. **One system.** A pattern that works in one brand works the same in the others.
 
-### 4.2 Colors
+#### 1.10.2 Colors
 
 - Build every screen from the shared neutrals. Iris Flower is the single accent, in Masumi and Sokosumi. All other palette colors are secondary.
 - Use one pink per view. Do not use Scarlet, Persimmon, or Golden Yellow for status.
@@ -356,7 +309,7 @@ shadcn/ui, Radix, and Tailwind are web only, so they do not cover native iOS and
 
 - The alpha number plus the opacity always add up to 100, so Alpha 20 is 80% black.
 - The source swatches label the last alpha tone "Alpha 10" a second time. It is named Alpha 95 here so the alpha number and the opacity add up to 100.
-- Use the opaque neutral steps for UI. Use alpha tones only for overlays and scrims over imagery, and define them as named tokens (see Section 4.0).
+- Use the opaque neutral steps for UI. Use alpha tones only for overlays and scrims over imagery, and define them as named tokens (see Section 1.10.0).
 
 **Light and dark themes (best case, from the tones above)**
 
@@ -374,7 +327,7 @@ shadcn/ui, Radix, and Tailwind are web only, so they do not cover native iOS and
 | Text on primary | Neutral 950 | Neutral 950 |
 | Overlay scrim | Alpha 50 | Alpha 50 |
 
-- This mirrors the three-layer page rule in Section 4.4.
+- This mirrors the three-layer page rule in Section 1.10.4.
 - **Contrast check.** Iris Flower with Neutral 950 text is about 7.9 to 1, which passes. Iris Flower with white text is only about 2.7 to 1, which fails. So text on a primary fill is always Neutral 950, never white. Never set Iris Flower text on a white page. Use it for fills, accents, and active states.
 - Iris Flower stays the same in light and dark. Never tint the neutrals toward pink.
 
@@ -388,7 +341,7 @@ shadcn/ui, Radix, and Tailwind are web only, so they do not cover native iOS and
 - Text on color uses black or white, whichever passes contrast.
 - Light and dark themes are both required (Locked). Define colors as tokens and redefine them per theme. Never hardcode a color in a component. Dark mode values are **Open**.
 
-### 4.3 Typography
+#### 1.10.3 Typography
 
 The typographic system uses a very limited set of weights and styles. It should feel simple and carry gravitas.
 
@@ -396,7 +349,7 @@ The typographic system uses a very limited set of weights and styles. It should 
 
 **Typeface**
 
-- Masumi and Sokosumi use Inter. CMO.XYZ uses Dela Gothic One and PP Mori (Section 6). Web fallback: system-ui, -apple-system, Segoe UI, sans-serif.
+- Masumi and Sokosumi use Inter. CMO.XYZ uses Dela Gothic One and PP Mori (Section 3). Web fallback: system-ui, -apple-system, Segoe UI, sans-serif.
 
 ![Typeface: Inter](Masumi%20Family%20Brand%20Guide%20Slides/typography-slide-02-typeface.png)
 
@@ -479,7 +432,7 @@ The typographic system uses a very limited set of weights and styles. It should 
 
 ![Typography don'ts](Masumi%20Family%20Brand%20Guide%20Slides/typography-slide-07-donts.png)
 
-### 4.4 Layout
+#### 1.10.4 Layout
 
 - **Product UI.** Breakpoints are Tailwind defaults: sm 640, md 768, lg 1024, xl 1280, 2xl 1536. Md is the main mobile and desktop split. Spacing uses the Tailwind 4px scale. App pages fill the width of the main area inside one shared gutter. Never hardcode spacing.
 - **Page surfaces.** Three layers: a white page, a borderless light gray panel, and white components with a border on top. Never put a bordered component directly on the white page.
@@ -489,7 +442,7 @@ The typographic system uses a very limited set of weights and styles. It should 
 - Navigation must be visible without scrolling. Primary actions such as connecting an account live near the top, never at the bottom of a page.
 - Prefer tabs over stacked sections when a page has several views (for example Calendar, Drafts, Connected accounts).
 
-#### The 20 UX laws
+##### The 20 UX laws
 
 Apply these to every layout in every brand. Each row pairs the rule with the law behind it.
 
@@ -515,18 +468,18 @@ Apply these to every layout in every brand. Each row pairs the rule with the law
 | 19 | Reveal complexity gradually | Occam's razor | Show the simple view first. Details appear on demand. |
 | 20 | Make completion feel closer | Goal-gradient effect | Show progress toward the end and start progress above zero. |
 
-### 4.5 Elevation and depth
+#### 1.10.5 Elevation and depth
 
 - Borders first. Define regions with hairline borders.
 - Shadows use Tailwind defaults and stop at shadow-lg, for floating overlays only. Overlays (menus, dialogs) use a scrim.
 - No glow or blur effects.
 
-### 4.6 Shapes
+#### 1.10.6 Shapes
 
 - Use the radius scale: xs 2, sm 6, md 8, lg 10, xl 14, 2xl 16, and full for pills and avatars. Use the named classes (rounded-md, rounded-xl). Never hardcode a radius.
 - Do not give every element the same radius.
 
-### 4.7 Components
+#### 1.10.7 Components
 
 **Buttons**
 - Labels start with a verb, in sentence case, one to three words: "Schedule post", "Connect X".
@@ -569,7 +522,7 @@ Apply these to every layout in every brand. Each row pairs the rule with the law
 **Dialogs**
 - Use only when the user must decide before continuing. Focus moves into the dialog and returns on close.
 
-### 4.8 Agent patterns
+#### 1.10.8 Agent patterns
 
 These apply wherever an agent speaks or acts, in every brand.
 
@@ -579,22 +532,22 @@ These apply wherever an agent speaks or acts, in every brand.
 - **Approvals.** Anything that needs review lands in an Approvals area. Tell the user when something is waiting there.
 - **Working state.** Show what the agent is doing and give a note when it is ready.
 - **Reversibility.** Let people edit, delay, or cancel anything the agent has queued.
-- **Tone.** Plain, short, direct. Follow the voice rules in Section 6 for CMO.XYZ and the same principles elsewhere.
+- **Tone.** Plain, short, direct. Follow the voice rules in Section 3 for CMO.XYZ and the same principles elsewhere.
 
-### 4.9 Iconography and imagery
+#### 1.10.9 Iconography and imagery
 
 - Use one icon family per product, outline style, consistent stroke. The icon set is **Pending**.
-- Use gradients and UI mockups. Other imagery is not decided yet. See Section 3.
+- Use gradients and UI mockups. Other imagery is not decided yet. See Section 1.9.
 - Provide text alternatives for every meaningful image.
 
-### 4.10 Motion
+#### 1.10.10 Motion
 
 - Press and hover feedback: 150ms, ease out. Enter animations: about 200ms. Animate transform and opacity, not layout.
 - Name the properties you transition. Never use transition-all.
 - Motion explains a change. Do not add decorative looping animation.
 - Respect the reduced motion setting by removing non essential movement.
 
-### 4.11 Accessibility
+#### 1.10.11 Accessibility
 
 - Target WCAG 2.2 AA.
 - Text contrast 4.5:1, large text and interface elements 3:1.
@@ -603,7 +556,7 @@ These apply wherever an agent speaks or acts, in every brand.
 - Do not rely on color, motion, or sound alone to carry meaning.
 - Support zoom to 200% without loss of content.
 
-### 4.12 Content rules
+#### 1.10.12 Content rules
 
 - Sentence case. Verb first for actions.
 - Short sentences and minimal fluff.
@@ -611,33 +564,31 @@ These apply wherever an agent speaks or acts, in every brand.
 - Skip filler such as "simply" and "successfully".
 - Dates, times, and currency follow the user's locale, with the time zone shown.
 
-### 4.13 Tokens and hand off
+#### 1.10.13 Tokens and hand off
 
 - All values are design tokens, named by role, not by color.
 - All tokens (color, typeface, and the rest) are shared by Masumi and Sokosumi. CMO.XYZ's tokens are separate.
 - A separate developer style guide covers code level detail. This file does not replace it.
 
----
-
-## 5. Extended guidelines (TBD)
+### 1.11 Extended guidelines (TBD)
 
 These areas are not decided yet. Each has a skeleton to fill in. Nothing here is final, and nothing should be built against it until the status changes.
 
-### 5.1 Imagery and iconography (TBD)
+#### 1.11.1 Imagery and iconography (TBD)
 
-**Status:** TBD. Section 4.9 holds only the basics.
+**Status:** TBD. Section 1.10.9 holds only the basics.
 
 To define:
 - **Icon style.** Outline or filled, stroke weight, corner treatment, grid size, and the icon set to use.
 - **Icon color.** Neutral by default, brand primary for active states only.
 - **Illustration rules.** Whether illustration is used at all, the style, and the palette.
-- **Fallback visuals.** Gradients and UI mockups only (Section 3).
+- **Fallback visuals.** Gradients and UI mockups only (Section 1.9).
 - **CMO.XYZ.** Mascot poses, agent avatars, and where the mascot may and may not appear.
 - **Alt text and accessibility** for imagery.
 
-### 5.2 Motion (TBD)
+#### 1.11.2 Motion (TBD)
 
-**Status:** TBD. Section 4.10 holds the base motion rules. Brand specific motion is still to define.
+**Status:** TBD. Section 1.10.10 holds the base motion rules. Brand specific motion is still to define.
 
 To define:
 - **Animated logo and icon.** The original guide mentioned an animated icon but gave no rules.
@@ -648,7 +599,7 @@ To define:
 - **Reduced motion** behavior for each of the above.
 - **Video and social motion.** Format, length, and safe areas.
 
-### 5.3 Templates (TBD)
+#### 1.11.3 Templates (TBD)
 
 **Status:** TBD. No templates are final.
 
@@ -661,7 +612,7 @@ To define, per template: format and size, grid, logo placement, type sizes, colo
 - Website page layouts
 - Event and booth materials
 
-### 5.4 Partner and co-branding rules (TBD)
+#### 1.11.4 Partner and co-branding rules (TBD)
 
 **Status:** TBD. The original guide had these and they were dropped.
 
@@ -678,29 +629,69 @@ To define:
 - **Partner color.** When partner colors may appear alongside ours.
 - **Approval process** for partner use of our marks.
 
-### 5.5 Voice and tone for Masumi and Sokosumi (TBD)
+#### 1.11.5 Voice and tone for Masumi and Sokosumi (TBD)
 
-**Status:** TBD. CMO.XYZ voice is locked (Section 6).
+**Status:** TBD. CMO.XYZ voice is locked (Section 3).
 
 To define: personality, do and don't phrases, banned words, and example copy. Starting point to confirm: the CMO.XYZ principles of data over vibes, asking for missing information, and short plain sentences.
 
-### 5.6 Data visualization (TBD)
+#### 1.11.6 Data visualization (TBD)
 
 **Status:** TBD. Needed for CMO.XYZ analytics and Sokosumi dashboards.
 
 To define: chart types, a chart color sequence from each brand palette, labeling, and light and dark theme behavior.
 
+### 1.12 Do and don't
+
+- Do keep the logo black or white on color.
+- Do use gradients and UI mockups for visuals.
+- Don't set the wordmark in all caps.
+
 ---
 
-## 6. CMO.XYZ
+## 2. Sokosumi
 
-### Overview
+### 2.1 Role and personality
+
+Sokosumi is the workplace OS and agent marketplace. It is where people manage agents and tasks and discover specialized agents. It should feel capable and calm, and stay out of the way of the work.
+
+### 2.2 Logo
+
+Same rules as Masumi (Section 1, Logo).
+
+### 2.3 Color
+
+Sokosumi uses the shared Masumi palette (Section 1, Color) with Iris Flower as the primary. Everything else comes from the shared neutrals (Section 1.10.2). Sokosumi's earlier purple and blue are retired.
+
+### 2.4 Color use
+
+Sokosumi uses the Masumi colors for everything, including gradients. It has no separate brand palette. User-chosen theme colors, offered in the original guide, are not part of this version.
+
+### 2.5 Typography
+
+Inter. The typeface, weights, typescale, alignment, and don'ts are in Section 1.10.3.
+
+### 2.6 Graphic language
+
+See Section 1.9. Gradients use the shared Masumi palette.
+
+### 2.7 Do and don't
+
+- Do use the shared UI/UX rules (Section 1.10) for every screen.
+- Do reuse the task board look (cards, status colors) as the reference for other modules.
+- Don't use CMO.XYZ's mascot inside Sokosumi surfaces.
+
+---
+
+## 3. CMO.XYZ
+
+### 3.1 Overview
 
 CMO.XYZ is an AI agent that automates a business's marketing, end to end, in one system. It is not a chatbot you prompt. It is not a stack of separate tools.
 
 The brand feels plain, direct, and grounded in data. Confidence comes from doing the analysis, not from sounding clever. Light banter is fine. Never stiff and corporate, never crude.
 
-### Brand identity
+### 3.2 Brand identity
 
 CMO.XYZ is separate from the Masumi family. It is getting its own branding and logos, so this section is its own source of truth.
 
@@ -708,10 +699,10 @@ CMO.XYZ is separate from the Masumi family. It is getting its own branding and l
 - **Personality:** playful, smart, friendly.
 - **Palette:** white, black and Iris Flower `#FF51FF`, in a white-led 60 / 30 / 10 balance.
 - **Typefaces:** Dela Gothic One for headlines, PP Mori for body text.
-- **UI/UX:** separate from Masumi and Sokosumi. CMO.XYZ's UI will be different, so the rules in Section 4 do not apply to it. Its own UI/UX rules are **Open**.
+- **UI/UX:** separate from Masumi and Sokosumi. CMO.XYZ's UI will be different, so the rules in Section 1.10 do not apply to it. Its own UI/UX rules are **Open**.
 - **Not inherited:** the Masumi logo rules (clearspace, spacing, partnerships in Section 1) do not apply to CMO.XYZ. It has its own clear space and minimum width (see Logo).
 
-### Logo (Locked)
+### 3.3 Logo (Locked)
 
 **Primary logo:** `logos/cmo-xyz/lockups/cmo-xyz-lockup-mascot-top-outline-black.svg`, on white.
 
@@ -749,7 +740,7 @@ Approved wordmarks. The primary wordmark is **Open**.
 - **Clear space (Proposed):** 1x on every side, where x is the cap height of the C in the lockup's wordmark.
 - **Minimum width (Proposed):** lockups with the mascot 120 px or 30 mm, wordmark 80 px or 20 mm, monogram 24 px or 8 mm.
 
-### Product
+### 3.4 Product
 
 A user registers, gives their domain, and the agent builds and runs the marketing strategy.
 
@@ -763,13 +754,13 @@ A user registers, gives their domain, and the agent builds and runs the marketin
 **Out of scope (roadmap)**
 - Newsletter. It is not part of the current scope and must not be built or shown yet.
 
-### Primary users
+### 3.5 Primary users
 
 - Solo founders
 - Small businesses with no marketing team who want to put it on autopilot
 - Builders
 
-### Agent naming
+### 3.6 Agent naming
 
 CMO.XYZ is the product name. **Each user names their own agent** inside the product. The demo used "June" as an example.
 
@@ -777,7 +768,7 @@ CMO.XYZ is the product name. **Each user names their own agent** inside the prod
 - Never hardcode one agent name for everyone.
 - Cuso is the mascot character and the **default name** for the CMO.XYZ agent. Users can rename it, so no screen may hardcode it.
 
-### Voice and tone
+### 3.7 Voice and tone
 
 These rules apply to all copy: onboarding, in-app messages, marketing site, ads, and error states.
 
@@ -795,7 +786,7 @@ Example responses from the current live build:
 
 > "On it. I'll draft that now and put anything that needs approval in your Approvals. You'll get a note when it's ready."
 
-### Status
+### 3.8 Status
 
 | Area | Status |
 |---|---|
@@ -806,35 +797,39 @@ Example responses from the current live build:
 | Colors | Locked (white, black, Iris Flower) |
 | Logo | Locked (primary wordmark Open, clear space and minimum size Proposed) |
 | Agent avatars | Open |
-| Graphic language | Follows Section 3 |
-| UI/UX rules (layout, elevation, shapes, components) | Open (separate from Section 4, will differ) |
+| Graphic language | Follows Section 1.9 |
+| UI/UX rules (layout, elevation, shapes, components) | Open (separate from Section 1.10, will differ) |
 
 Do not invent brand colors. Do not treat any current build or demo colors as final. If a placeholder is needed to keep building, use a neutral system default and flag it clearly as temporary in code and comments.
 
-Application specs for the website, the app, and the print flier are TBD (Section 5.3).
+Application specs for the website, the app, and the print flier are TBD (Section 1.11.3).
 
-### Typography
+### 3.9 Typography
 
 Headlines use Dela Gothic One. Body text uses PP Mori. Use sentence case. PP Mori is a licensed font, so its files are not stored in this repo.
 
-### Color
+### 3.10 Color
 
 CMO.XYZ brand work uses white `#FFFFFF`, black `#000000` and Iris Flower `#FF51FF`, balanced 60 / 30 / 10. Text on Iris Flower is black. The earlier exploration colors (coral, amber, cyan, blue, ink, and paper) are retired.
 
-- Green is not a brand color. It is allowed for success states only (Section 4.2).
+- Green is not a brand color. It is allowed for success states only (Section 1.10.2).
 - CMO.XYZ leans on white surfaces, so it feels open and friendly.
 
-### Mascot and avatars
+### 3.11 Mascot and avatars
 
 **Approved 2D mascot (Locked).** SVGs and transparent PNGs are in `Cuso 2D Mascot/`: 11 poses and 6 head expressions, each with its variations. Use approved poses and expressions only. No gloves. Never stretch or recolor the mascot.
 
 **Agent avatars (Open).** The earlier 3D profile pictures have been removed. Whether to make a new set from the approved 2D mascot is still to decide.
 
-### Graphic language
+### 3.12 Graphic language
 
-CMO.XYZ has no set graphic language. It follows Section 3: gradients and UI or product mockups, plus the mascot. The pixel treatment explored earlier is not adopted. Do not build permanent assets around it.
+CMO.XYZ has no set graphic language. It follows Section 1.9: gradients and UI or product mockups, plus the mascot. The pixel treatment explored earlier is not adopted. Do not build permanent assets around it.
 
-### Do's and don'ts
+### 3.13 UI/UX rules (Open)
+
+CMO.XYZ's UI will be different from Masumi and Sokosumi, so the UI/UX rules in Section 1.10 do not apply to it. Its own rules for layout, elevation, shapes, components, and tokens are **Open**.
+
+### 3.14 Do's and don'ts
 
 - Do tie every claim the agent makes to actual data or prior context. Don't state anything with confidence that has no data behind it.
 - Do ask for missing information, framed as getting "better aligned". Don't hedge with "I'm not sure" or "I think".
@@ -845,7 +840,7 @@ CMO.XYZ has no set graphic language. It follows Section 3: gradients and UI or p
 
 ---
 
-## 7. Governance
+## Governance
 
 - **Source of truth.** This file. Update it when a decision locks and change the status label.
 - **Versioning.** Bump the version on every change.
@@ -861,11 +856,11 @@ Work that is underway and not final. Do not treat any of it as locked. When an i
 
 | Item | What is happening | Brand | Status |
 |---|---|---|---|
-| Social media templates | First draft in progress: a 4:5 feed post for the Cuso launch. Format sizes, grid, and logo placement still to set (Section 5.3). Not in this repo yet | All | Working |
+| Social media templates | First draft in progress: a 4:5 feed post for the Cuso launch. Format sizes, grid, and logo placement still to set (Section 1.11.3). Not in this repo yet | All | Working |
 | Social post examples | One example per brand once the templates are set | All | TBD |
-| Other templates | Flier (print), slide decks, email signatures, email and newsletter layouts, website page layouts, event and booth materials (Section 5.3). Build order is Open | All | TBD |
-| CMO.XYZ UI/UX rules | CMO.XYZ's UI will be different from Masumi and Sokosumi. Its own rules still to write (Section 6) | CMO.XYZ | Open |
-| Voice and tone | Masumi and Sokosumi voice is still to write (Section 5.5) | Masumi, Sokosumi | TBD |
+| Other templates | Flier (print), slide decks, email signatures, email and newsletter layouts, website page layouts, event and booth materials (Section 1.11.3). Build order is Open | All | TBD |
+| CMO.XYZ UI/UX rules | CMO.XYZ's UI will be different from Masumi and Sokosumi. Its own rules still to write (Section 3) | CMO.XYZ | Open |
+| Voice and tone | Masumi and Sokosumi voice is still to write (Section 1.11.5) | Masumi, Sokosumi | TBD |
 
 ---
 
@@ -875,23 +870,23 @@ Work that is underway and not final. Do not treat any of it as locked. When an i
 |---|---|---|---|
 | 1 | Cuso background rules for CMO.XYZ | CMO.XYZ, mascot | Pending |
 | 2 | Cuso agent avatars: whether to make a new set from the approved 2D mascot | CMO.XYZ | Open |
-| 3 | Native mobile apps are planned. Confirm React Native Reusables as the UI library | Section 4.0 | Proposed |
+| 3 | Native mobile apps are planned. Confirm React Native Reusables as the UI library | Section 1.10.0 | Proposed |
 | 4 | Icon set | UI/UX rules | Pending |
 | 5 | How x is measured on every wordmark: Proposed as the height of the wordmark. Also the rule at exactly 30 px | Logo | Proposed |
 | 6 | Print minimum size for the wordmark (screen minimum is 14px) | Logo | Open |
-| 7 | Gradient and mockup rules | Section 3 | Open |
-| 8 | Imagery and iconography rules: photography and stock, decorative grid, blur and glow, abstract art, and realistic AI generated images | Section 3, Section 5.1 | Open |
-| 9 | AI generation rules: who approves a use, which countries and platforms require labels, how to label, and where prompts are recorded | Section 3 | Open |
-| 10 | Motion rules | Section 5.2 | Open |
-| 11 | Templates: confirm the list of template types in Section 5.3 and which to build first | Section 5.3 | Open |
-| 12 | Social media post examples for each brand | Section 5.3 | Open |
-| 13 | Partner and co-branding rules still to define: order and hierarchy, dividers, family co-branding, partner color, approval (size and spacing are in Section 1) | Section 5.4 | Open |
-| 14 | Voice and tone for Masumi and Sokosumi (CMO.XYZ voice is locked in Section 6) | Section 5.5 | Open |
-| 15 | Data visualization rules | Section 5.6 | Open |
+| 7 | Gradient and mockup rules | Section 1.9 | Open |
+| 8 | Imagery and iconography rules: photography and stock, decorative grid, blur and glow, abstract art, and realistic AI generated images | Section 1.9, Section 1.11.1 | Open |
+| 9 | AI generation rules: who approves a use, which countries and platforms require labels, how to label, and where prompts are recorded | Section 1.9 | Open |
+| 10 | Motion rules | Section 1.11.2 | Open |
+| 11 | Templates: confirm the list of template types in Section 1.11.3 and which to build first | Section 1.11.3 | Open |
+| 12 | Social media post examples for each brand | Section 1.11.3 | Open |
+| 13 | Partner and co-branding rules still to define: order and hierarchy, dividers, family co-branding, partner color, approval (size and spacing are in Section 1) | Section 1.11.4 | Open |
+| 14 | Voice and tone for Masumi and Sokosumi (CMO.XYZ voice is locked in Section 3) | Section 1.11.5 | Open |
+| 15 | Data visualization rules | Section 1.11.6 | Open |
 | 16 | Asset location and named owner | Governance | Open |
 | 17 | Wordmarks for Masumi Standard and Masumi Agent Wallet, if needed (Sokosumi and Marketing OS wordmarks are done) | All brands | Open |
-| 18 | CMO.XYZ logo clear space and minimum width: confirm the proposed values | Section 6 | Proposed |
-| 19 | CMO.XYZ UI/UX rules. Its UI will differ from Section 4, so layout, shapes, components, and tokens need their own rules | Section 6 | Open |
+| 18 | CMO.XYZ logo clear space and minimum width: confirm the proposed values | Section 3 | Proposed |
+| 19 | CMO.XYZ UI/UX rules. Its UI will differ from Section 1.10, so layout, shapes, components, and tokens need their own rules | Section 3 | Open |
 
 ---
 
@@ -923,13 +918,13 @@ All paths are relative to this file. Keep this file and these folders together.
 | Spacing between logos | `Masumi Family Brand Guide Slides/logo-spacing.png` | 1, Logo spacing |
 | Logo partnerships | `Masumi Family Brand Guide Slides/logo-partnerships.png` | 1, Logo partnerships |
 | Color palette | `Masumi Family Brand Guide Slides/color-palette-slide.png` | 1, Color |
-| Typography title | `Masumi Family Brand Guide Slides/typography-slide-01-title.png` | 4.3 |
-| Typeface | `Masumi Family Brand Guide Slides/typography-slide-02-typeface.png` | 4.3 |
-| Weights | `Masumi Family Brand Guide Slides/typography-slide-03-weights.png` | 4.3 |
-| Typescale | `Masumi Family Brand Guide Slides/typography-slide-04-typescale.png` | 4.3 |
-| Alignment, headlines | `Masumi Family Brand Guide Slides/typography-slide-05-alignment-headlines.png` | 4.3 |
-| Alignment, paragraphs | `Masumi Family Brand Guide Slides/typography-slide-06-alignment-paragraphs.png` | 4.3 |
-| Typography don'ts | `Masumi Family Brand Guide Slides/typography-slide-07-donts.png` | 4.3 |
+| Typography title | `Masumi Family Brand Guide Slides/typography-slide-01-title.png` | 1.10.3 |
+| Typeface | `Masumi Family Brand Guide Slides/typography-slide-02-typeface.png` | 1.10.3 |
+| Weights | `Masumi Family Brand Guide Slides/typography-slide-03-weights.png` | 1.10.3 |
+| Typescale | `Masumi Family Brand Guide Slides/typography-slide-04-typescale.png` | 1.10.3 |
+| Alignment, headlines | `Masumi Family Brand Guide Slides/typography-slide-05-alignment-headlines.png` | 1.10.3 |
+| Alignment, paragraphs | `Masumi Family Brand Guide Slides/typography-slide-06-alignment-paragraphs.png` | 1.10.3 |
+| Typography don'ts | `Masumi Family Brand Guide Slides/typography-slide-07-donts.png` | 1.10.3 |
 
 ### Cuso 2D mascot (`Cuso 2D Mascot/`)
 
@@ -950,5 +945,5 @@ All paths are relative to this file. Keep this file and these folders together.
 
 ### External references
 
-- shadcn/ui and Kibo UI: see Section 4.0.
+- shadcn/ui and Kibo UI: see Section 1.10.0.
 - Original Agentic brand guidelines (PDF): the source of the NMKR partner example and the original logo rules.
