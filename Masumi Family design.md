@@ -736,7 +736,7 @@ Approved wordmarks. The primary wordmark is **Open**.
 | `logos/cmo-xyz/wordmark/cmo-xyz-dela-sticker.svg` | Iris |
 
 - Do not recolor, stretch, rotate, or add effects to the logo files.
-- Every approved file also has a transparent PNG, 3000 px on its longest side, in `logos/cmo-xyz/png/lockups/` and `logos/cmo-xyz/png/wordmark/`. Cut-out areas are see-through, so place each file on its approved background.
+- Every approved file also has a transparent PNG, 3000 px on its longest side, in `logos/cmo-xyz/PNG/lockups/` and `logos/cmo-xyz/PNG/wordmark/`. Cut-out areas are see-through, so place each file on its approved background.
 - **Clear space (Proposed):** 1x on every side, where x is the cap height of the C in the lockup's wordmark.
 - **Minimum width (Proposed):** lockups with the mascot 120 px or 30 mm, wordmark 80 px or 20 mm, monogram 24 px or 8 mm.
 
