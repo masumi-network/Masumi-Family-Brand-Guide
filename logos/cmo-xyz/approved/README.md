@@ -33,3 +33,5 @@ Every SVG here was approved in the Logo Lineup review. The table lists the backg
 | [cmo-xyz-dela-white.svg](cmo-xyz-dela-white.svg) | Wordmark | White | Black |  |  |
 
 Photo or video placements need a review before use.
+
+Transparent PNGs of every file, 3000px wide, are in [../png/approved](../png/approved).
