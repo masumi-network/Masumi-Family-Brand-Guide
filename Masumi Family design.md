@@ -704,39 +704,67 @@ CMO.XYZ is separate from the Masumi family. It is getting its own branding and l
 
 ### 3.3 Logo (Locked)
 
-**Primary logo:** `logos/cmo-xyz/lockups/cmo-xyz-lockup-mascot-top-outline-black.svg`, on white.
+**Primary logo:** `logos/cmo-xyz/SVG/cmo-xyz-lockup-mascot-top-outline-black.svg`, the go-to on white and Iris.
 
-<img src="logos/cmo-xyz/lockups/cmo-xyz-lockup-mascot-top-outline-black.svg" width="320" alt="CMO.XYZ primary logo">
+<img src="logos/cmo-xyz/SVG/cmo-xyz-lockup-mascot-top-outline-black.svg" width="320" alt="CMO.XYZ primary logo">
 
-Approved lockups, each on the listed backgrounds only:
+**Primary wordmark:** `logos/cmo-xyz/SVG/cmo-xyz-dela-sticker.svg`, the go-to on white.
 
-| File | Approved backgrounds |
-|---|---|
-| `logos/cmo-xyz/lockups/cmo-xyz-lockup-monogram-black.svg` | Iris, white |
-| `logos/cmo-xyz/lockups/cmo-xyz-lockup-monogram-iris.svg` | white, black |
-| `logos/cmo-xyz/lockups/cmo-xyz-lockup-stacked-text-black.svg` | Iris, white |
-| `logos/cmo-xyz/lockups/cmo-xyz-lockup-stacked-text-white.svg` | black |
-| `logos/cmo-xyz/lockups/cmo-xyz-lockup-mascot-top-black.svg` | Iris, white |
-| `logos/cmo-xyz/lockups/cmo-xyz-lockup-mascot-top-white.svg` | black |
-| `logos/cmo-xyz/lockups/cmo-xyz-lockup-stacked-text-outline-black.svg` | Iris, white |
-| `logos/cmo-xyz/lockups/cmo-xyz-lockup-mascot-top-outline-black.svg` | Iris, white |
-| `logos/cmo-xyz/lockups/cmo-xyz-lockup-framed-black.svg` | white |
-| `logos/cmo-xyz/lockups/cmo-xyz-lockup-framed-white.svg` | black |
-| `logos/cmo-xyz/lockups/cmo-xyz-lockup-framed-clear-black.svg` | Iris |
-| `logos/cmo-xyz/lockups/cmo-xyz-lockup-block-black.svg` | white |
-| `logos/cmo-xyz/lockups/cmo-xyz-lockup-block-white.svg` | black |
+These rules come from the Logo Lineup and Logo Rules reviews. Use each logo only on the backgrounds, at the sizes and in the places listed. Sizes: L is heroes and posters, M is headers and posts, S is nav and avatars. Files in `logos/cmo-xyz/lockups/` and `logos/cmo-xyz/wordmark/` that are not listed here are not approved.
 
-Approved wordmarks. The primary wordmark is **Open**.
+**Main logos.** First choice.
 
-| File | Approved background |
-|---|---|
-| `logos/cmo-xyz/wordmark/cmo-xyz-dela-black.svg` | white |
-| `logos/cmo-xyz/wordmark/cmo-xyz-dela-white.svg` | black |
-| `logos/cmo-xyz/wordmark/cmo-xyz-dela-iris.svg` | black |
-| `logos/cmo-xyz/wordmark/cmo-xyz-dela-sticker.svg` | Iris |
+| Logo | File (`logos/cmo-xyz/SVG/`) | Backgrounds | Sizes | Use for |
+|---|---|---|---|---|
+| Mascot on top, outlined text, ground shadow | `cmo-xyz-lockup-mascot-top-outline-black.svg` | White (go-to), Iris (go-to), Photo or video* | L / M | site footer, slides, docs, merch, events, print |
+| Stacked, outlined text, ground shadow | `cmo-xyz-lockup-stacked-text-outline-black.svg` | White (go-to), Iris (go-to), Photo or video* | M / S | app header, site header, site footer, social posts, email, slides, docs, merch, events, print |
+| Wordmark, sticker outline | `cmo-xyz-dela-sticker.svg` | White (go-to), Iris, Photo or video* | M / S | app header, site header, site footer, social posts, ads, email, slides, docs, merch, events, print |
+
+**Supporting logos.** Use when a main logo does not fit the background or layout.
+
+| Logo | File (`logos/cmo-xyz/SVG/`) | Backgrounds | Sizes | Use for |
+|---|---|---|---|---|
+| Mascot on top, filled, Black lines | `cmo-xyz-lockup-mascot-top-filled-black-on-white.svg`<br>`cmo-xyz-lockup-mascot-top-filled-black-on-iris.svg` | White, Iris | L / M | email, slides, docs |
+| Mascot on top, filled, Iris lines | `cmo-xyz-lockup-mascot-top-filled-iris-on-white.svg` | White | M | merch, events |
+| Mascot on top, inverted, Iris | `cmo-xyz-lockup-mascot-top-inverted-iris-on-black.svg` | Black | L / M | social posts, slides, docs, merch, print |
+| Stacked, solid text, ground shadow | `cmo-xyz-lockup-stacked-text-black.svg` | Iris | M / S | landing hero, social posts, slides |
+| Stacked, filled, Black lines | `cmo-xyz-lockup-stacked-text-filled-black-on-white.svg`<br>`cmo-xyz-lockup-stacked-text-filled-black-on-iris.svg` | White, Iris | M / S | social posts, ads, email, slides, docs, print |
+| Stacked, filled, Iris lines | `cmo-xyz-lockup-stacked-text-filled-iris-on-white.svg` | White | M / S | site footer, social posts, slides, docs, merch, events, print |
+| Stacked, inverted, Iris | `cmo-xyz-lockup-stacked-text-inverted-iris-on-black.svg` | Black | M / S | landing hero, site footer, social posts, ads, email, slides, docs, merch, events, print |
+| Stacked, inverted, White | `cmo-xyz-lockup-stacked-text-inverted-white-on-black.svg`<br>`cmo-xyz-lockup-stacked-text-inverted-white-on-iris.svg` | Black, Iris | M / S | social posts, ads, email, slides, docs, merch, events, print |
+| Wordmark, black | `cmo-xyz-dela-black.svg` | White, Iris | M / S | site header, site footer, social posts, ads, email, slides, docs, merch, events, print |
+| Wordmark, iris | `cmo-xyz-dela-iris.svg` | White | M / S | site footer, social posts, ads, email, slides, docs, merch, events, print |
+| Wordmark, white | `cmo-xyz-dela-white.svg` | Black | M / S | site header, site footer, social posts, ads, email, slides, docs, merch, events, print |
+
+**Small spaces.** Tight or tiny placements such as app icons.
+
+| Logo | File (`logos/cmo-xyz/SVG/`) | Backgrounds | Sizes | Use for |
+|---|---|---|---|---|
+| Monogram, black edge | `cmo-xyz-lockup-monogram-black.svg` | Iris, Photo or video* | S | app icon, site footer, ads, email, slides, docs, merch, events, print |
+| Monogram, iris edge | `cmo-xyz-lockup-monogram-iris.svg` | Black, Photo or video* | S | app icon, site footer, social posts, ads, email, slides, docs, merch, events, print |
+
+**Special moments.** Campaigns, merch and launches.
+
+| Logo | File (`logos/cmo-xyz/SVG/`) | Backgrounds | Sizes | Use for |
+|---|---|---|---|---|
+| Framed panel, black panel | `cmo-xyz-lockup-framed-black.svg` | White | M / S | site footer, social posts, ads, docs, merch, events, print |
+| Framed panel, see-through panel (experimental, review before each use) | `cmo-xyz-lockup-framed-clear-black.svg` | White, Iris, Photo or video* | M / S | site footer, social posts, ads, slides, docs, merch, events, print |
+| Framed panel, white panel | `cmo-xyz-lockup-framed-white.svg` | Black | M / S | site footer, social posts, ads, slides, docs, merch, events, print |
+| Knockout block, black block (use sparingly, character needs refinement) | `cmo-xyz-lockup-block-black.svg` | White | M / S | site footer, social posts, ads, email, slides, docs, merch, events, print |
+| Knockout block, white block (line work needs improving) | `cmo-xyz-lockup-block-white.svg` | Black | M / S | social posts, ads, slides, docs, merch, events, print |
+
+**In reserve.** Approved, not in use yet.
+
+| Logo | File (`logos/cmo-xyz/SVG/`) | Backgrounds | Sizes | Use for |
+|---|---|---|---|---|
+| Mascot on top, inverted, White | `cmo-xyz-lockup-mascot-top-inverted-white-on-black.svg`<br>`cmo-xyz-lockup-mascot-top-inverted-white-on-iris.svg` | Black, Iris | L / M | social posts, docs |
+| Wordmark, sticker outline, Iris shadow (stroke needs adjusting) | `cmo-xyz-dela-iris-shadow-sticker.svg` | White, Black, Iris, Photo or video* | M / S | merch, events, print |
+
+\* Photo or video placements need a review before each use.
 
 - Do not recolor, stretch, rotate, or add effects to the logo files.
-- Every approved file also has a transparent PNG, 3000 px on its longest side, in `logos/cmo-xyz/PNG/lockups/` and `logos/cmo-xyz/PNG/wordmark/`. Cut-out areas are see-through, so place each file on its approved background.
+- Every approved file also has a transparent PNG, 3000 px wide, in `logos/cmo-xyz/PNG/`. Cut-out areas are see-through, so place each file on its approved background.
+- The filled and inverted versions have one file per background. Use the file named for the background it sits on.
 - **Clear space (Proposed):** 1x on every side, where x is the cap height of the C in the lockup's wordmark.
 - **Minimum width (Proposed):** lockups with the mascot 120 px or 30 mm, wordmark 80 px or 20 mm, monogram 24 px or 8 mm.
 
@@ -795,7 +823,7 @@ Example responses from the current live build:
 | Brand identity | Separate from the Masumi family, in progress |
 | Typeface | Locked (Dela Gothic One, PP Mori) |
 | Colors | Locked (white, black, Iris Flower) |
-| Logo | Locked (primary wordmark Open, clear space and minimum size Proposed) |
+| Logo | Locked (clear space and minimum size Proposed) |
 | Agent avatars | Open |
 | Graphic language | Follows Section 1.9 |
 | UI/UX rules (layout, elevation, shapes, components) | Open (separate from Section 1.10, will differ) |
@@ -817,7 +845,7 @@ CMO.XYZ brand work uses white `#FFFFFF`, black `#000000` and Iris Flower `#FF51F
 
 ### 3.11 Mascot and avatars
 
-**Approved 2D mascot (Locked).** SVGs and transparent PNGs are in `Cuso 2D Mascot/`: 11 poses and 6 head expressions, each with its variations. Use approved poses and expressions only. No gloves. Never stretch or recolor the mascot.
+**Approved 2D mascot (Locked).** SVGs and transparent PNGs are in `Cuso 2D Mascot/`: 10 full-body poses, each with its variations. Use approved poses only, and always show the full body. Head-only expressions are not used. No gloves. Never stretch or recolor the mascot.
 
 **Agent avatars (Open).** The earlier 3D profile pictures have been removed. Whether to make a new set from the approved 2D mascot is still to decide.
 
@@ -905,8 +933,8 @@ All paths are relative to this file. Keep this file and these folders together.
 | Sokosumi | `logos/sokosumi/sokosumi-logo-wordmark-white.svg` |
 | Marketing OS | `logos/marketing-os/marketing-os-wordmark-black.svg` |
 | Marketing OS | `logos/marketing-os/marketing-os-wordmark-white.svg` |
-| CMO.XYZ | `logos/cmo-xyz/wordmark/cmo-xyz-dela-black.svg` |
-| CMO.XYZ | `logos/cmo-xyz/wordmark/cmo-xyz-dela-white.svg` |
+| CMO.XYZ | `logos/cmo-xyz/SVG/` (approved SVGs, see Section 3.3) |
+| CMO.XYZ | `logos/cmo-xyz/PNG/` (approved transparent PNGs) |
 
 ### Slides (`Masumi Family Brand Guide Slides/`)
 
@@ -930,8 +958,7 @@ All paths are relative to this file. Keep this file and these folders together.
 
 | Folder | Contents | Section |
 |---|---|---|
-| `Cuso 2D Mascot/poses/` | 11 poses, each with 4 variations, as SVG and transparent PNG | 3 |
-| `Cuso 2D Mascot/expressions/` | 6 head expressions, each with 2 variations, as SVG and transparent PNG | 3 |
+| `Cuso 2D Mascot/poses/` | 10 poses, each with 4 variations, as SVG and transparent PNG | 3 |
 
 ### Editable sources (`sources/`)
 
