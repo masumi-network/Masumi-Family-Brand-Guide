@@ -685,6 +685,11 @@ See Section 1.9. Gradients use the shared Masumi palette.
 
 ## 3. CMO.XYZ
 
+> [!TIP]
+> **See the visual brand guide:** [`sources/cmo-xyz-brand-guide.html`](sources/cmo-xyz-brand-guide.html). Download it and open it in a browser to see every logo, colour, typeface, mascot pose, rule and UI state on one page.
+>
+> [![CMO.XYZ brand guide preview](sources/cmo-xyz-brand-guide-preview.png)](sources/cmo-xyz-brand-guide.html)
+
 ### 3.1 Overview
 
 CMO.XYZ is an AI agent that automates a business's marketing, end to end, in one system. It is not a chatbot you prompt. It is not a stack of separate tools.
@@ -699,7 +704,7 @@ CMO.XYZ is separate from the Masumi family. It is getting its own branding and l
 - **Personality:** playful, smart, friendly.
 - **Palette:** white, black and Iris Flower `#FF51FF`, in a white-led 60 / 30 / 10 balance.
 - **Typefaces:** Dela Gothic One for headlines, PP Mori for body text.
-- **UI/UX:** separate from Masumi and Sokosumi. CMO.XYZ's UI will be different, so the rules in Section 1.10 do not apply to it. Buttons and states are approved (Section 3.13). The rest of its UI/UX rules are **Open**.
+- **UI/UX:** separate from Masumi and Sokosumi. CMO.XYZ's UI will be different, so the rules in Section 1.10 do not apply to it. Buttons and states are approved (Section 3.14). The rest of its UI/UX rules are **Open**.
 - **Not inherited:** the Masumi logo rules (clearspace, spacing, partnerships in Section 1) do not apply to CMO.XYZ. It has its own clear space and minimum width (see Logo).
 
 ### 3.3 Logo (Locked)
@@ -854,7 +859,18 @@ CMO.XYZ brand work uses white `#FFFFFF`, black `#000000` and Iris Flower `#FF51F
 
 CMO.XYZ has no set graphic language. It follows Section 1.9: gradients and UI or product mockups, plus the mascot. The pixel treatment explored earlier is not adopted. Do not build permanent assets around it.
 
-### 3.13 UI/UX rules (Buttons approved, rest Open)
+### 3.13 Do's and don'ts
+
+- Do tie every claim the agent makes to actual data or prior context. Don't state anything with confidence that has no data behind it.
+- Do ask for missing information, framed as getting "better aligned". Don't hedge with "I'm not sure" or "I think".
+- Do call the agent Cuso everywhere. Don't offer a way to rename it, and don't use other names like "June".
+- Do keep copy plain and short. Don't write long, rambling sentences or lean on em dashes and hyphens.
+- Do use the approved logo files and the white, black and Iris Flower palette. Don't treat current demo colors as final.
+- Don't build the newsletter. It is roadmap.
+
+---
+
+### 3.14 UI/UX rules (Buttons approved, rest Open)
 
 CMO.XYZ's UI will be different from Masumi and Sokosumi, so the UI/UX rules in Section 1.10 do not apply to it. Buttons and states come from the CMO.XYZ dashboard and are approved. Layout, elevation, other components and tokens are **Open**.
 
@@ -900,17 +916,6 @@ Nav items and toggle chips pick things, they don't do things. So they skip the I
 - Primary and secondary look the same. Primary has a bolder label.
 - Pressing sinks the button into its shadow.
 - Disabled buttons drop the shadow.
-
-### 3.14 Do's and don'ts
-
-- Do tie every claim the agent makes to actual data or prior context. Don't state anything with confidence that has no data behind it.
-- Do ask for missing information, framed as getting "better aligned". Don't hedge with "I'm not sure" or "I think".
-- Do call the agent Cuso everywhere. Don't offer a way to rename it, and don't use other names like "June".
-- Do keep copy plain and short. Don't write long, rambling sentences or lean on em dashes and hyphens.
-- Do use the approved logo files and the white, black and Iris Flower palette. Don't treat current demo colors as final.
-- Don't build the newsletter. It is roadmap.
-
----
 
 ## Governance
 
@@ -1009,9 +1014,9 @@ All paths are relative to this file. Keep this file and these folders together.
 
 | File | Contents | Section |
 |---|---|---|
-| `UI/cmo-xyz-buttons.css` | CMO.XYZ button styles, light and dark | 3.13 |
-| `UI/cmo-xyz-buttons.html` | Live demo of every button and state | 3.13 |
-| `UI/cmo-xyz-buttons-and-states.png` | Image of the demo | 3.13 |
+| `UI/cmo-xyz-buttons.css` | CMO.XYZ button styles, light and dark | 3.14 |
+| `UI/cmo-xyz-buttons.html` | Live demo of every button and state | 3.14 |
+| `UI/cmo-xyz-buttons-and-states.png` | Image of the demo | 3.14 |
 
 ### Editable sources (`sources/`)
 
