@@ -710,6 +710,8 @@ CMO.XYZ is separate from the Masumi family. It is getting its own branding and l
 
 **Primary wordmark:** `logos/cmo-xyz/SVG/cmo-xyz-dela-sticker.svg`, the go-to on white.
 
+**Primary icon:** the black-edge monogram on an Iris square. Use it for favicons, app icons and avatars. Ready-made files, from a 16 px favicon to a 512 px app icon, are in `logos/cmo-xyz/Favicon/`.
+
 These rules come from the Logo Lineup and Logo Rules reviews. Use each logo only on the backgrounds, at the sizes and in the places listed. Sizes: L is heroes and posters, M is headers and posts, S is nav and avatars. Files in `logos/cmo-xyz/lockups/` and `logos/cmo-xyz/wordmark/` that are not listed here are not approved.
 
 **Main logos.** First choice.
@@ -740,7 +742,7 @@ These rules come from the Logo Lineup and Logo Rules reviews. Use each logo only
 
 | Logo | File (`logos/cmo-xyz/SVG/`) | Backgrounds | Sizes | Use for |
 |---|---|---|---|---|
-| Monogram, black edge | `cmo-xyz-lockup-monogram-black.svg` | Iris, Photo or video* | S | app icon, site footer, ads, email, slides, docs, merch, events, print |
+| Monogram, black edge (primary icon) | `cmo-xyz-lockup-monogram-black.svg` | Iris (go-to), Photo or video* | S | app icon, site footer, ads, email, slides, docs, merch, events, print |
 | Monogram, iris edge | `cmo-xyz-lockup-monogram-iris.svg` | Black, Photo or video* | S | app icon, site footer, social posts, ads, email, slides, docs, merch, events, print |
 
 **Special moments.** Campaigns, merch and launches.
@@ -935,6 +937,7 @@ All paths are relative to this file. Keep this file and these folders together.
 | Marketing OS | `logos/marketing-os/marketing-os-wordmark-white.svg` |
 | CMO.XYZ | `logos/cmo-xyz/SVG/` (approved SVGs, see Section 3.3) |
 | CMO.XYZ | `logos/cmo-xyz/PNG/` (approved transparent PNGs) |
+| CMO.XYZ | `logos/cmo-xyz/Favicon/` (favicon and app icons, Iris background) |
 
 ### Slides (`Masumi Family Brand Guide Slides/`)
 

@@ -24,7 +24,7 @@ Every SVG here was approved in the Logo Lineup review. The table lists the backg
 | [cmo-xyz-lockup-framed-white.svg](cmo-xyz-lockup-framed-white.svg) | Framed panel | White panel | Black |  |  |
 | [cmo-xyz-lockup-block-black.svg](cmo-xyz-lockup-block-black.svg) | Knockout block | Black block | White |  | Use less often, character needs refinement |
 | [cmo-xyz-lockup-block-white.svg](cmo-xyz-lockup-block-white.svg) | Knockout block | White block | Black |  | need to improve line work |
-| [cmo-xyz-lockup-monogram-black.svg](cmo-xyz-lockup-monogram-black.svg) | Monogram | Black edge | Iris, Photo or video |  | When used on image background needs to be approved/ reviewed before use |
+| [cmo-xyz-lockup-monogram-black.svg](cmo-xyz-lockup-monogram-black.svg) | Monogram | Black edge, primary icon | Iris, Photo or video | ★ Iris | When used on image background needs to be approved/ reviewed before use |
 | [cmo-xyz-lockup-monogram-iris.svg](cmo-xyz-lockup-monogram-iris.svg) | Monogram | Iris edge | Black, Photo or video |  | When used on image background needs to be approved/ reviewed before use |
 | [cmo-xyz-dela-black.svg](cmo-xyz-dela-black.svg) | Wordmark | Black | White, Iris |  |  |
 | [cmo-xyz-dela-iris-shadow-sticker.svg](cmo-xyz-dela-iris-shadow-sticker.svg) | Wordmark | Sticker outline, Iris shadow | White, Black, Iris, Photo or video |  | When used on image background needs to be approved/ reviewed before use |
@@ -35,3 +35,5 @@ Every SVG here was approved in the Logo Lineup review. The table lists the backg
 Photo or video placements need a review before use.
 
 Transparent PNGs of every file, 3000px wide, are in [../PNG](../PNG).
+
+Favicon and app icon files, on the Iris background, are in [../Favicon](../Favicon).
