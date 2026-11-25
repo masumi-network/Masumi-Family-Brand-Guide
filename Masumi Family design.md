@@ -83,7 +83,7 @@ With one shared palette, color does not separate the brands. These do:
 | Mascot and avatars | Not applicable | Not applicable | Locked (2D mascot), avatars Open |
 | Dark mode | Locked, values open | Locked, values open | Locked, values open |
 | Imagery, motion, templates, co-branding | TBD | TBD | TBD |
-| UI/UX rules | Locked (shadcn/ui) | Locked (shadcn/ui) | Open (separate, will differ) |
+| UI/UX rules | Locked (shadcn/ui) | Locked (shadcn/ui) | Separate. Buttons and states approved, the rest Open |
 
 ### Naming rules
 
@@ -699,7 +699,7 @@ CMO.XYZ is separate from the Masumi family. It is getting its own branding and l
 - **Personality:** playful, smart, friendly.
 - **Palette:** white, black and Iris Flower `#FF51FF`, in a white-led 60 / 30 / 10 balance.
 - **Typefaces:** Dela Gothic One for headlines, PP Mori for body text.
-- **UI/UX:** separate from Masumi and Sokosumi. CMO.XYZ's UI will be different, so the rules in Section 1.10 do not apply to it. Its own UI/UX rules are **Open**.
+- **UI/UX:** separate from Masumi and Sokosumi. CMO.XYZ's UI will be different, so the rules in Section 1.10 do not apply to it. Buttons and states are approved (Section 3.13). The rest of its UI/UX rules are **Open**.
 - **Not inherited:** the Masumi logo rules (clearspace, spacing, partnerships in Section 1) do not apply to CMO.XYZ. It has its own clear space and minimum width (see Logo).
 
 ### 3.3 Logo (Locked)
@@ -854,9 +854,52 @@ CMO.XYZ brand work uses white `#FFFFFF`, black `#000000` and Iris Flower `#FF51F
 
 CMO.XYZ has no set graphic language. It follows Section 1.9: gradients and UI or product mockups, plus the mascot. The pixel treatment explored earlier is not adopted. Do not build permanent assets around it.
 
-### 3.13 UI/UX rules (Open)
+### 3.13 UI/UX rules (Buttons approved, rest Open)
 
-CMO.XYZ's UI will be different from Masumi and Sokosumi, so the UI/UX rules in Section 1.10 do not apply to it. Its own rules for layout, elevation, shapes, components, and tokens are **Open**.
+CMO.XYZ's UI will be different from Masumi and Sokosumi, so the UI/UX rules in Section 1.10 do not apply to it. Buttons and states come from the CMO.XYZ dashboard and are approved. Layout, elevation, other components and tokens are **Open**.
+
+Files are in `UI/`: `cmo-xyz-buttons.css` (styles), `cmo-xyz-buttons.html` (live demo, light and dark) and `cmo-xyz-buttons-and-states.png`.
+
+![CMO.XYZ buttons and states](UI/cmo-xyz-buttons-and-states.png)
+
+#### The Iris shadow
+
+The Iris shadow means you can do something here. Every button that takes an action carries it. Press it and the button sinks into the shadow. Disabled buttons lose it.
+
+Nav items and toggle chips pick things, they don't do things. So they skip the Iris shadow and show the selected state with an outline and a light tint.
+
+#### Button types
+
+| Type | Use | Iris shadow | Selected state |
+|---|---|---|---|
+| Primary | The main action, like "Sign and start" | Yes | Not used |
+| Secondary | Other actions, like "Connect X" | Yes | Not used |
+| Icon button | An action shown as an icon, like add | Yes | Not used |
+| Nav item | Moving between pages | No | Outline and tint |
+| Toggle chip | Turning a filter or option on and off | No | Outline and tint |
+
+#### Spec
+
+| Part | Light | Dark |
+|---|---|---|
+| Height | 40px, chips 32px | Same |
+| Padding | 16px sides, nav and chips 12px, icon buttons 40 × 40 | Same |
+| Corners | 6px radius | Same |
+| Border | 1px black | 1px white at 45%, 70% on hover and selected |
+| Background | White | #0E0E0E |
+| Shadow | 3px 3px 0, Iris #FF51FF, no blur | Same |
+| Label | Inter 14px, 600. Primary 700. Chips 13px, 500 | Same |
+| Hover | #F2F2F2 tint | #1A1A1A tint |
+| Pressed | Moves 3px down and right, shadow gone, #E6E6E6 | Same move, #262626 |
+| Disabled | 35% opacity, no shadow | Same |
+
+#### Rules
+
+- Only buttons that take an action get the Iris shadow.
+- Nav items and chips never get the shadow.
+- Primary and secondary look the same. Primary has a bolder label.
+- Pressing sinks the button into its shadow.
+- Disabled buttons drop the shadow.
 
 ### 3.14 Do's and don'ts
 
@@ -961,6 +1004,14 @@ All paths are relative to this file. Keep this file and these folders together.
 | Folder | Contents | Section |
 |---|---|---|
 | `Cuso 2D Mascot/poses/` | 10 poses, each with 4 variations, as SVG and transparent PNG | 3 |
+
+### UI (`UI/`)
+
+| File | Contents | Section |
+|---|---|---|
+| `UI/cmo-xyz-buttons.css` | CMO.XYZ button styles, light and dark | 3.13 |
+| `UI/cmo-xyz-buttons.html` | Live demo of every button and state | 3.13 |
+| `UI/cmo-xyz-buttons-and-states.png` | Image of the demo | 3.13 |
 
 ### Editable sources (`sources/`)
 

@@ -1,0 +1,74 @@
+/* CMO.XYZ buttons and states
+   Source: CMO.XYZ dashboard UI, "Buttons and states" board.
+   Put .cmo-light or .cmo-dark on a parent to pick the theme. */
+
+.cmo-light {
+  --cmo-bg: #FFFFFF;
+  --cmo-fg: #000000;
+  --cmo-mute: rgba(0, 0, 0, .62);
+  --cmo-line: rgba(0, 0, 0, .14);
+  --cmo-card: #FFFFFF;
+  --cmo-border: #000000;
+  --cmo-border-strong: #000000;
+  --cmo-hover: #F2F2F2;
+  --cmo-press: #E6E6E6;
+  --cmo-iris: #FF51FF;
+}
+.cmo-dark {
+  --cmo-bg: #000000;
+  --cmo-fg: #FFFFFF;
+  --cmo-mute: rgba(255, 255, 255, .66);
+  --cmo-line: rgba(255, 255, 255, .2);
+  --cmo-card: #0E0E0E;
+  --cmo-border: rgba(255, 255, 255, .45);
+  --cmo-border-strong: rgba(255, 255, 255, .7);
+  --cmo-hover: #1A1A1A;
+  --cmo-press: #262626;
+  --cmo-iris: #FF51FF;
+}
+.cmo-light, .cmo-dark { background: var(--cmo-bg); color: var(--cmo-fg); }
+
+/* Action buttons: primary, secondary, icon. They carry the Iris shadow. */
+.cmo-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 40px; padding: 0 16px; box-sizing: border-box;
+  border: 1px solid var(--cmo-border); border-radius: 6px;
+  background: var(--cmo-card); color: var(--cmo-fg);
+  font: 600 14px/1 'Inter', system-ui, sans-serif; white-space: nowrap; cursor: pointer;
+  box-shadow: 3px 3px 0 var(--cmo-iris); background-clip: padding-box;
+  transition: transform .08s ease, box-shadow .08s ease, background .08s ease;
+}
+.cmo-btn--primary { font-weight: 700; }
+.cmo-btn--icon { width: 40px; padding: 0; }
+
+.cmo-btn:hover { background: var(--cmo-hover); border-color: var(--cmo-border-strong); }
+.cmo-btn:active { transform: translate(3px, 3px); box-shadow: none; background: var(--cmo-press); }
+.cmo-btn:focus-visible { outline: 2px solid var(--cmo-fg); outline-offset: 3px; }
+.cmo-btn:disabled { opacity: .35; cursor: default; transform: none; box-shadow: none; }
+.cmo-btn:disabled:hover { background: var(--cmo-card); border-color: var(--cmo-border); }
+
+/* Pickers: nav items and toggle chips. No Iris shadow. Selected = outline + tint. */
+.cmo-btn--nav {
+  min-width: 132px; justify-content: flex-start; padding: 0 12px;
+  border-color: transparent; background: transparent; font-weight: 500; box-shadow: none;
+}
+.cmo-btn--chip {
+  min-height: 32px; padding: 0 12px; border-color: var(--cmo-line);
+  font-size: 13px; font-weight: 500; box-shadow: none;
+}
+.cmo-btn--nav:active, .cmo-btn--chip:active { transform: translate(1px, 1px); }
+.cmo-btn--nav[aria-current="page"],
+.cmo-btn--chip[aria-pressed="true"] {
+  border-color: var(--cmo-border-strong); background: var(--cmo-hover); font-weight: 600;
+}
+.cmo-btn--nav:disabled:hover { border-color: transparent; background: transparent; }
+.cmo-btn--chip:disabled:hover { border-color: var(--cmo-line); background: var(--cmo-card); }
+
+@media (prefers-reduced-motion: reduce) { .cmo-btn { transition: none; } }
+
+/* Preview helpers: force a state for spec sheets. Not for product code. */
+.cmo-btn.is-hover { background: var(--cmo-hover); border-color: var(--cmo-border-strong); }
+.cmo-btn.is-pressed { transform: translate(3px, 3px); box-shadow: none; background: var(--cmo-press); }
+.cmo-btn--nav.is-pressed, .cmo-btn--chip.is-pressed { transform: translate(1px, 1px); }
+.cmo-btn--nav.is-pressed { background: var(--cmo-press); }
+.cmo-btn.is-on { border-color: var(--cmo-border-strong); background: var(--cmo-hover); font-weight: 600; }
