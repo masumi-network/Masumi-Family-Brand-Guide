@@ -11,7 +11,6 @@ Every SVG here was approved in the Logo Lineup review. The table lists the backg
 | [cmo-xyz-lockup-mascot-top-inverted-white-on-black.svg](cmo-xyz-lockup-mascot-top-inverted-white-on-black.svg) | Mascot on top | Inverted, white | Black |  |  |
 | [cmo-xyz-lockup-mascot-top-inverted-white-on-iris.svg](cmo-xyz-lockup-mascot-top-inverted-white-on-iris.svg) | Mascot on top | Inverted, white | Iris |  |  |
 | [cmo-xyz-lockup-mascot-top-outline-black.svg](cmo-xyz-lockup-mascot-top-outline-black.svg) | Mascot on top | Outlined text, ground shadow | White, Iris, Photo or video | ★ White, ★ Iris | When used on image background needs to be approved/ reviewed before use |
-| [cmo-xyz-lockup-stacked-text-black.svg](cmo-xyz-lockup-stacked-text-black.svg) | Stacked | Solid text, ground shadow | Iris |  |  |
 | [cmo-xyz-lockup-stacked-text-filled-black-on-iris.svg](cmo-xyz-lockup-stacked-text-filled-black-on-iris.svg) | Stacked | Filled, black lines | Iris |  |  |
 | [cmo-xyz-lockup-stacked-text-filled-black-on-white.svg](cmo-xyz-lockup-stacked-text-filled-black-on-white.svg) | Stacked | Filled, black lines | White |  |  |
 | [cmo-xyz-lockup-stacked-text-filled-iris-on-white.svg](cmo-xyz-lockup-stacked-text-filled-iris-on-white.svg) | Stacked | Filled, iris lines | White |  |  |
@@ -25,7 +24,7 @@ Every SVG here was approved in the Logo Lineup review. The table lists the backg
 | [cmo-xyz-lockup-block-black.svg](cmo-xyz-lockup-block-black.svg) | Knockout block | Black block | White |  | Use less often, character needs refinement |
 | [cmo-xyz-lockup-block-white.svg](cmo-xyz-lockup-block-white.svg) | Knockout block | White block | Black |  | need to improve line work |
 | [cmo-xyz-lockup-monogram-black.svg](cmo-xyz-lockup-monogram-black.svg) | Monogram | Black edge, primary icon | Iris, Photo or video | ★ Iris | When used on image background needs to be approved/ reviewed before use |
-| [cmo-xyz-lockup-monogram-iris.svg](cmo-xyz-lockup-monogram-iris.svg) | Monogram | Iris edge | Black, Photo or video |  | When used on image background needs to be approved/ reviewed before use |
+| [cmo-xyz-lockup-monogram-iris.svg](cmo-xyz-lockup-monogram-iris.svg) | Monogram | Iris edge | White, Black, Photo or video |  | When used on image background needs to be approved/ reviewed before use |
 | [cmo-xyz-dela-black.svg](cmo-xyz-dela-black.svg) | Wordmark | Black | White, Iris |  |  |
 | [cmo-xyz-dela-iris-shadow-sticker.svg](cmo-xyz-dela-iris-shadow-sticker.svg) | Wordmark | Sticker outline, Iris shadow | White, Black, Iris, Photo or video |  | When used on image background needs to be approved/ reviewed before use |
 | [cmo-xyz-dela-iris.svg](cmo-xyz-dela-iris.svg) | Wordmark | Iris | White |  |  |
@@ -33,6 +32,8 @@ Every SVG here was approved in the Logo Lineup review. The table lists the backg
 | [cmo-xyz-dela-white.svg](cmo-xyz-dela-white.svg) | Wordmark | White | Black |  |  |
 
 Photo or video placements need a review before use.
+
+The outline around Cuso is only for stickers, approved background images, the framed panel logos and the knockout block logos. On black, use the inverted, white versions ([stacked](cmo-xyz-lockup-stacked-text-inverted-white-on-black.svg), [mascot on top](cmo-xyz-lockup-mascot-top-inverted-white-on-black.svg)), which have no outline.
 
 Transparent PNGs of every file, 3000px wide, are in [../PNG](../PNG).
 

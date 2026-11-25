@@ -729,7 +729,6 @@ These rules come from the Logo Lineup and Logo Rules reviews. Use each logo only
 | Mascot on top, filled, Black lines | `cmo-xyz-lockup-mascot-top-filled-black-on-white.svg`<br>`cmo-xyz-lockup-mascot-top-filled-black-on-iris.svg` | White, Iris | L / M | email, slides, docs |
 | Mascot on top, filled, Iris lines | `cmo-xyz-lockup-mascot-top-filled-iris-on-white.svg` | White | M | merch, events |
 | Mascot on top, inverted, Iris | `cmo-xyz-lockup-mascot-top-inverted-iris-on-black.svg` | Black | L / M | social posts, slides, docs, merch, print |
-| Stacked, solid text, ground shadow | `cmo-xyz-lockup-stacked-text-black.svg` | Iris | M / S | landing hero, social posts, slides |
 | Stacked, filled, Black lines | `cmo-xyz-lockup-stacked-text-filled-black-on-white.svg`<br>`cmo-xyz-lockup-stacked-text-filled-black-on-iris.svg` | White, Iris | M / S | social posts, ads, email, slides, docs, print |
 | Stacked, filled, Iris lines | `cmo-xyz-lockup-stacked-text-filled-iris-on-white.svg` | White | M / S | site footer, social posts, slides, docs, merch, events, print |
 | Stacked, inverted, Iris | `cmo-xyz-lockup-stacked-text-inverted-iris-on-black.svg` | Black | M / S | landing hero, site footer, social posts, ads, email, slides, docs, merch, events, print |
@@ -743,7 +742,7 @@ These rules come from the Logo Lineup and Logo Rules reviews. Use each logo only
 | Logo | File (`logos/cmo-xyz/SVG/`) | Backgrounds | Sizes | Use for |
 |---|---|---|---|---|
 | Monogram, black edge (primary icon) | `cmo-xyz-lockup-monogram-black.svg` | Iris (go-to), Photo or video* | S | app icon, site footer, ads, email, slides, docs, merch, events, print |
-| Monogram, iris edge | `cmo-xyz-lockup-monogram-iris.svg` | Black, Photo or video* | S | app icon, site footer, social posts, ads, email, slides, docs, merch, events, print |
+| Monogram, iris edge | `cmo-xyz-lockup-monogram-iris.svg` | White, Black, Photo or video* | S | app icon, site footer, social posts, ads, email, slides, docs, merch, events, print |
 
 **Special moments.** Campaigns, merch and launches.
 
@@ -767,8 +766,9 @@ These rules come from the Logo Lineup and Logo Rules reviews. Use each logo only
 - Do not recolor, stretch, rotate, or add effects to the logo files.
 - Every approved file also has a transparent PNG, 3000 px wide, in `logos/cmo-xyz/PNG/`. Cut-out areas are see-through, so place each file on its approved background.
 - The filled and inverted versions have one file per background. Use the file named for the background it sits on.
-- **Clear space (Proposed):** 1x on every side, where x is the cap height of the C in the lockup's wordmark.
-- **Minimum width (Proposed):** lockups with the mascot 120 px or 30 mm, wordmark 80 px or 20 mm, monogram 24 px or 8 mm.
+- The outline around Cuso is only for stickers, approved background images, the framed panel logos and the knockout block logos. On black, use the inverted, white versions (`cmo-xyz-lockup-stacked-text-inverted-white-on-black.svg`, `cmo-xyz-lockup-mascot-top-inverted-white-on-black.svg`), which have no outline.
+- **Clear space (Approved):** 1x on every side, where x is the cap height of the C in the lockup's wordmark.
+- **Minimum width (Approved):** mascot on top 120 px or 30 mm, mascot to the side (stacked, for horizontal spaces) 150 px or 40 mm, wordmark 80 px or 20 mm, monogram 24 px or 8 mm.
 
 ### 3.4 Product
 
@@ -792,11 +792,10 @@ A user registers, gives their domain, and the agent builds and runs the marketin
 
 ### 3.6 Agent naming
 
-CMO.XYZ is the product name. **Each user names their own agent** inside the product. The demo used "June" as an example.
+CMO.XYZ is the product name. The agent is called **Cuso**, the same name as the mascot.
 
-- Every screen must support whatever name the user picks.
-- Never hardcode one agent name for everyone.
-- Cuso is the mascot character and the **default name** for the CMO.XYZ agent. Users can rename it, so no screen may hardcode it.
+- Every customer's agent is called Cuso. Customers can't rename it.
+- Use "Cuso" wherever the agent is named, in the product, the marketing site and ads.
 
 ### 3.7 Voice and tone
 
@@ -825,7 +824,7 @@ Example responses from the current live build:
 | Brand identity | Separate from the Masumi family, in progress |
 | Typeface | Locked (Dela Gothic One, PP Mori) |
 | Colors | Locked (white, black, Iris Flower) |
-| Logo | Locked (clear space and minimum size Proposed) |
+| Logo | Locked |
 | Agent avatars | Open |
 | Graphic language | Follows Section 1.9 |
 | UI/UX rules (layout, elevation, shapes, components) | Open (separate from Section 1.10, will differ) |
@@ -863,7 +862,7 @@ CMO.XYZ's UI will be different from Masumi and Sokosumi, so the UI/UX rules in S
 
 - Do tie every claim the agent makes to actual data or prior context. Don't state anything with confidence that has no data behind it.
 - Do ask for missing information, framed as getting "better aligned". Don't hedge with "I'm not sure" or "I think".
-- Do support whatever agent name the user picks on every screen. Don't hardcode one agent name for everyone.
+- Do call the agent Cuso everywhere. Don't offer a way to rename it, and don't use other names like "June".
 - Do keep copy plain and short. Don't write long, rambling sentences or lean on em dashes and hyphens.
 - Do use the approved logo files and the white, black and Iris Flower palette. Don't treat current demo colors as final.
 - Don't build the newsletter. It is roadmap.
@@ -915,7 +914,7 @@ Work that is underway and not final. Do not treat any of it as locked. When an i
 | 15 | Data visualization rules | Section 1.11.6 | Open |
 | 16 | Asset location and named owner | Governance | Open |
 | 17 | Wordmarks for Masumi Standard and Masumi Agent Wallet, if needed (Sokosumi and Marketing OS wordmarks are done) | All brands | Open |
-| 18 | CMO.XYZ logo clear space and minimum width: confirm the proposed values | Section 3 | Proposed |
+| 18 | CMO.XYZ logo clear space and minimum width: confirm the proposed values | Section 3 | Approved 2026-11-24 |
 | 19 | CMO.XYZ UI/UX rules. Its UI will differ from Section 1.10, so layout, shapes, components, and tokens need their own rules | Section 3 | Open |
 
 ---
