@@ -5,6 +5,7 @@ Brand and UI/UX source of truth for Masumi, Sokosumi (Marketing OS) and CMO.XYZ.
 - `Masumi Family design.md`: the guide. Open it next to the image folders so the images show.
 - `logos/`: wordmarks and symbol, one folder per brand, plus partner logos.
 - `Masumi Family Brand Guide Slides/`: all brand slides as images: Agentic family, logo clearspace, spacing, partnerships, color palette and typography.
+- `CMO.XYZ Brand Guide Images/`: screenshots of each CMO.XYZ brand guide section (logos, clear space, type, colour, mascot, do and don't), shown in Section 3 of the guide.
 - `Cuso 2D Mascot/`: approved 2D Cuso poses, as SVGs and transparent PNGs.
 - `UI/`: CMO.XYZ buttons and states, as CSS, a live HTML demo and an image. More UI is coming.
 - `Socials/`: approved social assets, like the CMO.XYZ X banner and profile picture.

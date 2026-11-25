@@ -689,6 +689,8 @@ See Section 1.9. Gradients use the shared Masumi palette.
 > **See the visual brand guide:** [`sources/cmo-xyz-brand-guide.html`](sources/cmo-xyz-brand-guide.html). Download it and open it in a browser to see every logo, colour, typeface, mascot pose, rule and UI state on one page.
 >
 > [![CMO.XYZ brand guide preview](sources/cmo-xyz-brand-guide-preview.png)](sources/cmo-xyz-brand-guide.html)
+>
+> The images in this section are screenshots of that guide. The text and tables next to them are the source of truth.
 
 ### 3.1 Overview
 
@@ -727,6 +729,8 @@ These rules come from the Logo Lineup and Logo Rules reviews. Use each logo only
 | Stacked, outlined text, ground shadow | `cmo-xyz-lockup-stacked-text-outline-black.svg` | White (go-to), Iris (go-to), Photo or video* | M / S | app header, site header, site footer, social posts, email, slides, docs, merch, events, print |
 | Wordmark, sticker outline | `cmo-xyz-dela-sticker.svg` | White (go-to), Iris, Photo or video* | M / S | app header, site header, site footer, social posts, ads, email, slides, docs, merch, events, print |
 
+![Main logos: mascot on top, stacked and sticker wordmark, each on white, Iris and photo or video](CMO.XYZ%20Brand%20Guide%20Images/cmo-xyz-guide-logo-main.png)
+
 **Supporting logos.** Use when a main logo does not fit the background or layout.
 
 | Logo | File (`logos/cmo-xyz/SVG/`) | Backgrounds | Sizes | Use for |
@@ -742,12 +746,16 @@ These rules come from the Logo Lineup and Logo Rules reviews. Use each logo only
 | Wordmark, iris | `cmo-xyz-dela-iris.svg` | White | M / S | site footer, social posts, ads, email, slides, docs, merch, events, print |
 | Wordmark, white | `cmo-xyz-dela-white.svg` | Black | M / S | site header, site footer, social posts, ads, email, slides, docs, merch, events, print |
 
+![Supporting logos: filled, inverted and plain wordmark versions with their backgrounds](CMO.XYZ%20Brand%20Guide%20Images/cmo-xyz-guide-logo-supporting.png)
+
 **Small spaces.** Tight or tiny placements such as app icons.
 
 | Logo | File (`logos/cmo-xyz/SVG/`) | Backgrounds | Sizes | Use for |
 |---|---|---|---|---|
 | Monogram, black edge (primary icon) | `cmo-xyz-lockup-monogram-black.svg` | Iris (go-to), Photo or video* | S | app icon, site footer, ads, email, slides, docs, merch, events, print |
 | Monogram, iris edge | `cmo-xyz-lockup-monogram-iris.svg` | White, Black, Photo or video* | S | app icon, site footer, social posts, ads, email, slides, docs, merch, events, print |
+
+![Small spaces: black-edge and iris-edge monograms on Iris, white, black and photo or video](CMO.XYZ%20Brand%20Guide%20Images/cmo-xyz-guide-logo-small-spaces.png)
 
 **Special moments.** Campaigns, merch and launches.
 
@@ -759,12 +767,16 @@ These rules come from the Logo Lineup and Logo Rules reviews. Use each logo only
 | Knockout block, black block (use sparingly, character needs refinement) | `cmo-xyz-lockup-block-black.svg` | White | M / S | site footer, social posts, ads, email, slides, docs, merch, events, print |
 | Knockout block, white block (line work needs improving) | `cmo-xyz-lockup-block-white.svg` | Black | M / S | social posts, ads, slides, docs, merch, events, print |
 
+![Special moments: framed panel and knockout block logos with their backgrounds](CMO.XYZ%20Brand%20Guide%20Images/cmo-xyz-guide-logo-special-moments.png)
+
 **In reserve.** Approved, not in use yet.
 
 | Logo | File (`logos/cmo-xyz/SVG/`) | Backgrounds | Sizes | Use for |
 |---|---|---|---|---|
 | Mascot on top, inverted, White | `cmo-xyz-lockup-mascot-top-inverted-white-on-black.svg`<br>`cmo-xyz-lockup-mascot-top-inverted-white-on-iris.svg` | Black, Iris | L / M | social posts, docs |
 | Wordmark, sticker outline, Iris shadow (stroke needs adjusting) | `cmo-xyz-dela-iris-shadow-sticker.svg` | White, Black, Iris, Photo or video* | M / S | merch, events, print |
+
+![In reserve: inverted white mascot on top and Iris shadow sticker wordmark](CMO.XYZ%20Brand%20Guide%20Images/cmo-xyz-guide-logo-in-reserve.png)
 
 \* Photo or video placements need a review before each use.
 
@@ -774,6 +786,8 @@ These rules come from the Logo Lineup and Logo Rules reviews. Use each logo only
 - The outline around Cuso is only for stickers, approved background images, the framed panel logos and the knockout block logos. On black, use the inverted, white versions (`cmo-xyz-lockup-stacked-text-inverted-white-on-black.svg`, `cmo-xyz-lockup-mascot-top-inverted-white-on-black.svg`), which have no outline.
 - **Clear space (Approved):** 1x on every side, where x is the cap height of the C in the lockup's wordmark.
 - **Minimum width (Approved):** mascot on top 120 px or 30 mm, mascot to the side (stacked, for horizontal spaces) 150 px or 40 mm, wordmark 80 px or 20 mm, monogram 24 px or 8 mm.
+
+![Clear space of 1x around the lockup, and minimum widths for each logo](CMO.XYZ%20Brand%20Guide%20Images/cmo-xyz-guide-clear-space.png)
 
 ### 3.4 Product
 
@@ -840,6 +854,8 @@ Application specs for the website, the app, and the print flier are TBD (Section
 
 ### 3.9 Typography
 
+![Typography: Dela Gothic One for headlines, PP Mori for body, and the type scale](CMO.XYZ%20Brand%20Guide%20Images/cmo-xyz-guide-type.png)
+
 Headlines use Dela Gothic One. Body text uses PP Mori. Use sentence case. PP Mori is a licensed font, so its files are not stored in this repo.
 
 ### 3.10 Color
@@ -849,9 +865,13 @@ CMO.XYZ brand work uses white `#FFFFFF`, black `#000000` and Iris Flower `#FF51F
 - Green is not a brand color. It is allowed for success states only (Section 1.10.2).
 - CMO.XYZ leans on white surfaces, so it feels open and friendly.
 
+![Colour: white #FFFFFF, black #000000, Iris #FF51FF, and black text on Iris](CMO.XYZ%20Brand%20Guide%20Images/cmo-xyz-guide-colour.png)
+
 ### 3.11 Mascot and avatars
 
 **Approved 2D mascot (Locked).** SVGs and transparent PNGs are in `Cuso 2D Mascot/`: 10 full-body poses, each with its variations. Use approved poses only, and always show the full body. Head-only expressions are not used. No gloves. Never stretch or recolor the mascot.
+
+![Mascot: Cuso and the 10 approved poses, with the mascot rules](CMO.XYZ%20Brand%20Guide%20Images/cmo-xyz-guide-mascot.png)
 
 **Agent avatars (Open).** The earlier 3D profile pictures have been removed. Whether to make a new set from the approved 2D mascot is still to decide.
 
@@ -868,7 +888,9 @@ CMO.XYZ has no set graphic language. It follows Section 1.9: gradients and UI or
 - Do use the approved logo files and the white, black and Iris Flower palette. Don't treat current demo colors as final.
 - Don't build the newsletter. It is roadmap.
 
----
+**Logo do's and don'ts**
+
+![Logo do and don't examples: lead with the primary, use the monogram when tight, no stretching, rotating, shadows or black on black](CMO.XYZ%20Brand%20Guide%20Images/cmo-xyz-guide-do-and-dont.png)
 
 ### 3.14 UI/UX rules (Buttons approved, rest Open)
 
@@ -916,6 +938,8 @@ Nav items and toggle chips pick things, they don't do things. So they skip the I
 - Primary and secondary look the same. Primary has a bolder label.
 - Pressing sinks the button into its shadow.
 - Disabled buttons drop the shadow.
+
+---
 
 ## Governance
 
@@ -1003,6 +1027,23 @@ All paths are relative to this file. Keep this file and these folders together.
 | Alignment, headlines | `Masumi Family Brand Guide Slides/typography-slide-05-alignment-headlines.png` | 1.10.3 |
 | Alignment, paragraphs | `Masumi Family Brand Guide Slides/typography-slide-06-alignment-paragraphs.png` | 1.10.3 |
 | Typography don'ts | `Masumi Family Brand Guide Slides/typography-slide-07-donts.png` | 1.10.3 |
+
+### CMO.XYZ brand guide images (`CMO.XYZ Brand Guide Images/`)
+
+Screenshots of `sources/cmo-xyz-brand-guide.html`, one per guide section. Re-capture them when the guide changes.
+
+| Image | File | Section |
+|---|---|---|
+| Main logos | `CMO.XYZ Brand Guide Images/cmo-xyz-guide-logo-main.png` | 3.3 |
+| Supporting logos | `CMO.XYZ Brand Guide Images/cmo-xyz-guide-logo-supporting.png` | 3.3 |
+| Small spaces | `CMO.XYZ Brand Guide Images/cmo-xyz-guide-logo-small-spaces.png` | 3.3 |
+| Special moments | `CMO.XYZ Brand Guide Images/cmo-xyz-guide-logo-special-moments.png` | 3.3 |
+| In reserve | `CMO.XYZ Brand Guide Images/cmo-xyz-guide-logo-in-reserve.png` | 3.3 |
+| Clear space and minimum width | `CMO.XYZ Brand Guide Images/cmo-xyz-guide-clear-space.png` | 3.3 |
+| Typography | `CMO.XYZ Brand Guide Images/cmo-xyz-guide-type.png` | 3.9 |
+| Colour | `CMO.XYZ Brand Guide Images/cmo-xyz-guide-colour.png` | 3.10 |
+| Mascot | `CMO.XYZ Brand Guide Images/cmo-xyz-guide-mascot.png` | 3.11 |
+| Logo do's and don'ts | `CMO.XYZ Brand Guide Images/cmo-xyz-guide-do-and-dont.png` | 3.13 |
 
 ### Cuso 2D mascot (`Cuso 2D Mascot/`)
 
